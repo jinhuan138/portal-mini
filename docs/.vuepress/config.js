@@ -1,6 +1,7 @@
 module.exports = {
     title: 'portal',
     dest: './dist',
+    base: '/portal/',
     theme: 'reco',
     port: '8086',
     locales: {
@@ -15,8 +16,11 @@ module.exports = {
         lineNumbers: false
     },
     themeConfig: {
+        type: 'Home',
         nav: require('./nav'),
         sidebar: require('./sidebar'),
+        authorAvatar: '/logo.png',
+        logo: '/logo.png',
         sidebarDepth: 2,
         subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
         noFoundPageByTencent: false,//404
@@ -29,7 +33,16 @@ module.exports = {
             }
         },
         editLinks: true,
-        editLinkText: '在 GitHub 上编辑此页 ！'
+        editLinkText: '在 GitHub 上编辑此页 ！',
+        friendLink: [
+            {
+                title: 'portal-pro',
+                logo: "/logo.png",
+                link: 'http://192.9.200.187:53201/index'
+            },
+        ],
+        mode: 'light',
+        modePicker: false
     },
     plugins: [
         ['demo-container-v2']
