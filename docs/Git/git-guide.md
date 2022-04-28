@@ -7,7 +7,7 @@ sidebarDepth: 3
 
 ## Git规范(Beta)
 
-更多开发规范，详见[开发手册](/Git/dev-handbook)。
+更多开发规范，详见[开发手册](/portal/Git/dev-handbook)。
 
 ## Git常用操作
 

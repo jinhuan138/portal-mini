@@ -59,19 +59,19 @@ npm publish --access public --registry http://192.9.180.42:30108/repository/ab-h
 
 点击按钮后会按顺序下载依赖包，并显示统计数据，在下载完成后下方会出现`下载完成，压缩中，请稍等......`字样，说明正在压缩文件，在文件较多情况下可能要等待一会，如下图。
 
-<img src="/images/npm/download_2.png" width="800"/>
+<img src="/portal/images/npm/download_2.png" width="800"/>
 
 压缩完成后，如果是Chrome会在浏览器右下角看到如下图的样子（其他浏览器可能显示有所不同）：
 
-<img src="/images/npm/download_3.png" width="500"/>
+<img src="/portal/images/npm/download_3.png" width="500"/>
 
 如果未出现提示可能是浏览器设置的原因，可以在下载列表中查看或直接查看浏览器设置的下载保存的本地路径，文件名会显示下载的时间。
 
-<img src="/images/npm/download_4.png" width="500"/>
+<img src="/portal/images/npm/download_4.png" width="500"/>
 
 解压后的文件像下面这样：
 
-<img src="/images/npm/download_extract.png" width="300"/>
+<img src="/portal/images/npm/download_extract.png" width="300"/>
 
 ### 2.上传依赖包
 
@@ -79,6 +79,6 @@ npm publish --access public --registry http://192.9.180.42:30108/repository/ab-h
 
 打开管理端，点击左侧**Upload**，然后选择解压好的`.tgz`文件点击上传(`Upload`按钮)即可，如下图：
 
-<img src="/images/npm/nexus_upload.png" width="500"/>
+<img src="/portal/images/npm/nexus_upload.png" width="500"/>
 
 > 可参考nexus的[上传文档](https://help.sonatype.com/repomanager3/user-interface/uploading-components)。
