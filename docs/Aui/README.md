@@ -29,7 +29,7 @@ npm 本地安装的方式
 
 ### 安装
 
-需要先 <a class="actived" target="_top" href="/faq#_2-%E5%88%87%E6%8D%A2-npm-%E4%B8%8B%E8%BD%BD%E6%BA%90">切换内部npm源</a>
+需要先 <a class="actived" target="_top" href="/FAQ/faq#_2-%E5%88%87%E6%8D%A2-npm-%E4%B8%8B%E8%BD%BD%E6%BA%90">切换内部npm源</a>
 
 ```bash
 npm install @agree/aui-web

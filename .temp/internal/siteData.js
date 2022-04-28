@@ -16,6 +16,100 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "Guide 使用指南",
+      "frontmatter": {},
+      "regularPath": "/Aui/",
+      "relativePath": "Aui/README.md",
+      "key": "v-f98a8a6a",
+      "path": "/Aui/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Guide 使用指南",
+          "slug": "guide-使用指南"
+        },
+        {
+          "level": 2,
+          "title": "<script> 标签引用",
+          "slug": "script-标签引用"
+        },
+        {
+          "level": 3,
+          "title": "安装",
+          "slug": "安装"
+        },
+        {
+          "level": 3,
+          "title": "使用",
+          "slug": "使用"
+        },
+        {
+          "level": 2,
+          "title": "NPM 引用",
+          "slug": "npm-引用"
+        },
+        {
+          "level": 3,
+          "title": "安装",
+          "slug": "安装-2"
+        },
+        {
+          "level": 3,
+          "title": "使用",
+          "slug": "使用-2"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "Badge 标记",
+      "frontmatter": {},
+      "regularPath": "/Aui/badge.html",
+      "relativePath": "Aui/badge.md",
+      "key": "v-42c098f8",
+      "path": "/Aui/badge.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Badge 标记",
+          "slug": "badge-标记"
+        },
+        {
+          "level": 3,
+          "title": "基础用法",
+          "slug": "基础用法"
+        },
+        {
+          "level": 3,
+          "title": "最大值",
+          "slug": "最大值"
+        },
+        {
+          "level": 3,
+          "title": "自定义内容",
+          "slug": "自定义内容"
+        },
+        {
+          "level": 3,
+          "title": "小红点",
+          "slug": "小红点"
+        },
+        {
+          "level": 3,
+          "title": "Attributes",
+          "slug": "attributes"
+        },
+        {
+          "level": 3,
+          "title": "Slot",
+          "slug": "slot"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
       "title": "Card 卡片",
       "frontmatter": {},
       "regularPath": "/Aui/card.html",
@@ -89,100 +183,6 @@ export const siteData = {
           "level": 3,
           "title": "Input Events",
           "slug": "input-events"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "Badge 标记",
-      "frontmatter": {},
-      "regularPath": "/Aui/badge.html",
-      "relativePath": "Aui/badge.md",
-      "key": "v-42c098f8",
-      "path": "/Aui/badge.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Badge 标记",
-          "slug": "badge-标记"
-        },
-        {
-          "level": 3,
-          "title": "基础用法",
-          "slug": "基础用法"
-        },
-        {
-          "level": 3,
-          "title": "最大值",
-          "slug": "最大值"
-        },
-        {
-          "level": 3,
-          "title": "自定义内容",
-          "slug": "自定义内容"
-        },
-        {
-          "level": 3,
-          "title": "小红点",
-          "slug": "小红点"
-        },
-        {
-          "level": 3,
-          "title": "Attributes",
-          "slug": "attributes"
-        },
-        {
-          "level": 3,
-          "title": "Slot",
-          "slug": "slot"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "Guide 使用指南",
-      "frontmatter": {},
-      "regularPath": "/Aui/",
-      "relativePath": "Aui/README.md",
-      "key": "v-f98a8a6a",
-      "path": "/Aui/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Guide 使用指南",
-          "slug": "guide-使用指南"
-        },
-        {
-          "level": 2,
-          "title": "<script> 标签引用",
-          "slug": "script-标签引用"
-        },
-        {
-          "level": 3,
-          "title": "安装",
-          "slug": "安装"
-        },
-        {
-          "level": 3,
-          "title": "使用",
-          "slug": "使用"
-        },
-        {
-          "level": 2,
-          "title": "NPM 引用",
-          "slug": "npm-引用"
-        },
-        {
-          "level": 3,
-          "title": "安装",
-          "slug": "安装-2"
-        },
-        {
-          "level": 3,
-          "title": "使用",
-          "slug": "使用-2"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -278,6 +278,43 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
+      "title": "Checkbox 多选框",
+      "frontmatter": {},
+      "regularPath": "/Aui/checkbox.html",
+      "relativePath": "Aui/checkbox.md",
+      "key": "v-1c27f956",
+      "path": "/Aui/checkbox.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Checkbox 多选框",
+          "slug": "checkbox-多选框"
+        },
+        {
+          "level": 3,
+          "title": "基础用法",
+          "slug": "基础用法"
+        },
+        {
+          "level": 3,
+          "title": "Checkbox Attributes",
+          "slug": "checkbox-attributes"
+        },
+        {
+          "level": 3,
+          "title": "Checkbox Events",
+          "slug": "checkbox-events"
+        },
+        {
+          "level": 3,
+          "title": "options Attributes",
+          "slug": "options-attributes"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
       "title": "Collapse 折叠面板",
       "frontmatter": {},
       "regularPath": "/Aui/collapse.html",
@@ -319,90 +356,6 @@ export const siteData = {
           "level": 3,
           "title": "Events",
           "slug": "events"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "Checkbox 多选框",
-      "frontmatter": {},
-      "regularPath": "/Aui/checkbox.html",
-      "relativePath": "Aui/checkbox.md",
-      "key": "v-1c27f956",
-      "path": "/Aui/checkbox.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Checkbox 多选框",
-          "slug": "checkbox-多选框"
-        },
-        {
-          "level": 3,
-          "title": "基础用法",
-          "slug": "基础用法"
-        },
-        {
-          "level": 3,
-          "title": "Checkbox Attributes",
-          "slug": "checkbox-attributes"
-        },
-        {
-          "level": 3,
-          "title": "Checkbox Events",
-          "slug": "checkbox-events"
-        },
-        {
-          "level": 3,
-          "title": "options Attributes",
-          "slug": "options-attributes"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "CountDown 倒计时",
-      "frontmatter": {},
-      "regularPath": "/Aui/count-down.html",
-      "relativePath": "Aui/count-down.md",
-      "key": "v-72ef0f5c",
-      "path": "/Aui/count-down.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "CountDown 倒计时",
-          "slug": "countdown-倒计时"
-        },
-        {
-          "level": 3,
-          "title": "数字",
-          "slug": "数字"
-        },
-        {
-          "level": 3,
-          "title": "日期",
-          "slug": "日期"
-        },
-        {
-          "level": 3,
-          "title": "是否开始计数",
-          "slug": "是否开始计数"
-        },
-        {
-          "level": 3,
-          "title": "Attributes",
-          "slug": "attributes"
-        },
-        {
-          "level": 3,
-          "title": "Events",
-          "slug": "events"
-        },
-        {
-          "level": 3,
-          "title": "VueComponent API",
-          "slug": "vuecomponent-api"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -451,37 +404,32 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "Date 日期选择器",
+      "title": "CountDown 倒计时",
       "frontmatter": {},
-      "regularPath": "/Aui/date.html",
-      "relativePath": "Aui/date.md",
-      "key": "v-f1f06980",
-      "path": "/Aui/date.html",
+      "regularPath": "/Aui/count-down.html",
+      "relativePath": "Aui/count-down.md",
+      "key": "v-72ef0f5c",
+      "path": "/Aui/count-down.html",
       "headers": [
         {
           "level": 2,
-          "title": "Date 日期选择器",
-          "slug": "date-日期选择器"
+          "title": "CountDown 倒计时",
+          "slug": "countdown-倒计时"
         },
         {
           "level": 3,
-          "title": "默认用法",
-          "slug": "默认用法"
+          "title": "数字",
+          "slug": "数字"
         },
         {
           "level": 3,
-          "title": "type 不同日期展示",
-          "slug": "type-不同日期展示"
+          "title": "日期",
+          "slug": "日期"
         },
         {
           "level": 3,
-          "title": "选择日期范围",
-          "slug": "选择日期范围"
-        },
-        {
-          "level": 3,
-          "title": "日期格式",
-          "slug": "日期格式"
+          "title": "是否开始计数",
+          "slug": "是否开始计数"
         },
         {
           "level": 3,
@@ -495,8 +443,8 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "Methods",
-          "slug": "methods"
+          "title": "VueComponent API",
+          "slug": "vuecomponent-api"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -627,6 +575,90 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
+      "title": "Date 日期选择器",
+      "frontmatter": {},
+      "regularPath": "/Aui/date.html",
+      "relativePath": "Aui/date.md",
+      "key": "v-f1f06980",
+      "path": "/Aui/date.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Date 日期选择器",
+          "slug": "date-日期选择器"
+        },
+        {
+          "level": 3,
+          "title": "默认用法",
+          "slug": "默认用法"
+        },
+        {
+          "level": 3,
+          "title": "type 不同日期展示",
+          "slug": "type-不同日期展示"
+        },
+        {
+          "level": 3,
+          "title": "选择日期范围",
+          "slug": "选择日期范围"
+        },
+        {
+          "level": 3,
+          "title": "日期格式",
+          "slug": "日期格式"
+        },
+        {
+          "level": 3,
+          "title": "Attributes",
+          "slug": "attributes"
+        },
+        {
+          "level": 3,
+          "title": "Events",
+          "slug": "events"
+        },
+        {
+          "level": 3,
+          "title": "Methods",
+          "slug": "methods"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "Group 分组框",
+      "frontmatter": {},
+      "regularPath": "/Aui/group.html",
+      "relativePath": "Aui/group.md",
+      "key": "v-583b9e04",
+      "path": "/Aui/group.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Group 分组框",
+          "slug": "group-分组框"
+        },
+        {
+          "level": 3,
+          "title": "基础用法",
+          "slug": "基础用法"
+        },
+        {
+          "level": 2,
+          "title": "Attributes",
+          "slug": "attributes"
+        },
+        {
+          "level": 2,
+          "title": "Slot",
+          "slug": "slot"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
       "title": "Dropdown 下拉菜单",
       "frontmatter": {},
       "regularPath": "/Aui/dropdown.html",
@@ -694,32 +726,152 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "Group 分组框",
+      "title": "i18n 国际化",
       "frontmatter": {},
-      "regularPath": "/Aui/group.html",
-      "relativePath": "Aui/group.md",
-      "key": "v-583b9e04",
-      "path": "/Aui/group.html",
+      "regularPath": "/Aui/i18n.html",
+      "relativePath": "Aui/i18n.md",
+      "key": "v-2161ea60",
+      "path": "/Aui/i18n.html",
       "headers": [
         {
           "level": 2,
-          "title": "Group 分组框",
-          "slug": "group-分组框"
+          "title": "i18n 国际化",
+          "slug": "i18n-国际化"
+        },
+        {
+          "level": 2,
+          "title": "国际化",
+          "slug": "国际化"
+        },
+        {
+          "level": 2,
+          "title": "兼容 vue-i18n@5.x",
+          "slug": "兼容-vue-i18n-5-x"
+        },
+        {
+          "level": 2,
+          "title": "兼容其他 i18n 插件",
+          "slug": "兼容其他-i18n-插件"
+        },
+        {
+          "level": 2,
+          "title": "兼容 vue-i18n@6.x",
+          "slug": "兼容-vue-i18n-6-x"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "frontmatter": {},
+      "regularPath": "/Aui/guide.html",
+      "relativePath": "Aui/guide.md",
+      "key": "v-1f9c9ee4",
+      "path": "/Aui/guide.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "安装",
+          "slug": "安装"
+        },
+        {
+          "level": 2,
+          "title": "常见问题",
+          "slug": "常见问题"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "Configure 全局配置",
+      "frontmatter": {},
+      "regularPath": "/Aui/global-configure.html",
+      "relativePath": "Aui/global-configure.md",
+      "key": "v-47c269a4",
+      "path": "/Aui/global-configure.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Configure 全局配置",
+          "slug": "configure-全局配置"
+        },
+        {
+          "level": 2,
+          "title": "全局配置",
+          "slug": "全局配置"
         },
         {
           "level": 3,
-          "title": "基础用法",
-          "slug": "基础用法"
+          "title": "使用",
+          "slug": "使用"
         },
         {
-          "level": 2,
-          "title": "Attributes",
-          "slug": "attributes"
-        },
+          "level": 3,
+          "title": "配置列表",
+          "slug": "配置列表"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "Layout 布局",
+      "frontmatter": {},
+      "regularPath": "/Aui/layout.html",
+      "relativePath": "Aui/layout.md",
+      "key": "v-04b9e148",
+      "path": "/Aui/layout.html",
+      "headers": [
         {
           "level": 2,
-          "title": "Slot",
-          "slug": "slot"
+          "title": "Layout 布局",
+          "slug": "layout-布局"
+        },
+        {
+          "level": 3,
+          "title": "基础布局",
+          "slug": "基础布局"
+        },
+        {
+          "level": 3,
+          "title": "分栏间隔",
+          "slug": "分栏间隔"
+        },
+        {
+          "level": 3,
+          "title": "混合布局",
+          "slug": "混合布局"
+        },
+        {
+          "level": 3,
+          "title": "分栏偏移",
+          "slug": "分栏偏移"
+        },
+        {
+          "level": 3,
+          "title": "对齐方式",
+          "slug": "对齐方式"
+        },
+        {
+          "level": 3,
+          "title": "Row Attributes",
+          "slug": "row-attributes"
+        },
+        {
+          "level": 3,
+          "title": "Row Slot",
+          "slug": "row-slot"
+        },
+        {
+          "level": 3,
+          "title": "Col Attributes",
+          "slug": "col-attributes"
+        },
+        {
+          "level": 3,
+          "title": "Col Slot",
+          "slug": "col-slot"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -798,158 +950,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "Configure 全局配置",
-      "frontmatter": {},
-      "regularPath": "/Aui/global-configure.html",
-      "relativePath": "Aui/global-configure.md",
-      "key": "v-47c269a4",
-      "path": "/Aui/global-configure.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Configure 全局配置",
-          "slug": "configure-全局配置"
-        },
-        {
-          "level": 2,
-          "title": "全局配置",
-          "slug": "全局配置"
-        },
-        {
-          "level": 3,
-          "title": "使用",
-          "slug": "使用"
-        },
-        {
-          "level": 3,
-          "title": "配置列表",
-          "slug": "配置列表"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "frontmatter": {},
-      "regularPath": "/Aui/guide.html",
-      "relativePath": "Aui/guide.md",
-      "key": "v-1f9c9ee4",
-      "path": "/Aui/guide.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "安装",
-          "slug": "安装"
-        },
-        {
-          "level": 2,
-          "title": "常见问题",
-          "slug": "常见问题"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "Layout 布局",
-      "frontmatter": {},
-      "regularPath": "/Aui/layout.html",
-      "relativePath": "Aui/layout.md",
-      "key": "v-04b9e148",
-      "path": "/Aui/layout.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Layout 布局",
-          "slug": "layout-布局"
-        },
-        {
-          "level": 3,
-          "title": "基础布局",
-          "slug": "基础布局"
-        },
-        {
-          "level": 3,
-          "title": "分栏间隔",
-          "slug": "分栏间隔"
-        },
-        {
-          "level": 3,
-          "title": "混合布局",
-          "slug": "混合布局"
-        },
-        {
-          "level": 3,
-          "title": "分栏偏移",
-          "slug": "分栏偏移"
-        },
-        {
-          "level": 3,
-          "title": "对齐方式",
-          "slug": "对齐方式"
-        },
-        {
-          "level": 3,
-          "title": "Row Attributes",
-          "slug": "row-attributes"
-        },
-        {
-          "level": 3,
-          "title": "Row Slot",
-          "slug": "row-slot"
-        },
-        {
-          "level": 3,
-          "title": "Col Attributes",
-          "slug": "col-attributes"
-        },
-        {
-          "level": 3,
-          "title": "Col Slot",
-          "slug": "col-slot"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "i18n 国际化",
-      "frontmatter": {},
-      "regularPath": "/Aui/i18n.html",
-      "relativePath": "Aui/i18n.md",
-      "key": "v-2161ea60",
-      "path": "/Aui/i18n.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "i18n 国际化",
-          "slug": "i18n-国际化"
-        },
-        {
-          "level": 2,
-          "title": "国际化",
-          "slug": "国际化"
-        },
-        {
-          "level": 2,
-          "title": "兼容 vue-i18n@5.x",
-          "slug": "兼容-vue-i18n-5-x"
-        },
-        {
-          "level": 2,
-          "title": "兼容其他 i18n 插件",
-          "slug": "兼容其他-i18n-插件"
-        },
-        {
-          "level": 2,
-          "title": "兼容 vue-i18n@6.x",
-          "slug": "兼容-vue-i18n-6-x"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
       "title": "Loading 加载",
       "frontmatter": {},
       "regularPath": "/Aui/loading.html",
@@ -991,68 +991,6 @@ export const siteData = {
           "level": 3,
           "title": "Options",
           "slug": "options"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "Menu 导航菜单",
-      "frontmatter": {},
-      "regularPath": "/Aui/menu.html",
-      "relativePath": "Aui/menu.md",
-      "key": "v-7c3742c4",
-      "path": "/Aui/menu.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Menu 导航菜单",
-          "slug": "menu-导航菜单"
-        },
-        {
-          "level": 3,
-          "title": "顶栏",
-          "slug": "顶栏"
-        },
-        {
-          "level": 3,
-          "title": "侧栏",
-          "slug": "侧栏"
-        },
-        {
-          "level": 3,
-          "title": "Menu Attribute",
-          "slug": "menu-attribute"
-        },
-        {
-          "level": 3,
-          "title": "Menu Methods",
-          "slug": "menu-methods"
-        },
-        {
-          "level": 3,
-          "title": "Menu Events",
-          "slug": "menu-events"
-        },
-        {
-          "level": 3,
-          "title": "SubMenu Attribute",
-          "slug": "submenu-attribute"
-        },
-        {
-          "level": 3,
-          "title": "SubMenu Events",
-          "slug": "submenu-events"
-        },
-        {
-          "level": 3,
-          "title": "Menu-Item Attribute",
-          "slug": "menu-item-attribute"
-        },
-        {
-          "level": 3,
-          "title": "Menu-Item-Group Attribute",
-          "slug": "menu-item-group-attribute"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -1131,42 +1069,99 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "Pagination 分页",
+      "title": "Menu 导航菜单",
       "frontmatter": {},
-      "regularPath": "/Aui/pagination.html",
-      "relativePath": "Aui/pagination.md",
-      "key": "v-2a1f7f30",
-      "path": "/Aui/pagination.html",
+      "regularPath": "/Aui/menu.html",
+      "relativePath": "Aui/menu.md",
+      "key": "v-7c3742c4",
+      "path": "/Aui/menu.html",
       "headers": [
         {
           "level": 2,
-          "title": "Pagination 分页",
-          "slug": "pagination-分页"
+          "title": "Menu 导航菜单",
+          "slug": "menu-导航菜单"
         },
         {
           "level": 3,
-          "title": "基础用法",
-          "slug": "基础用法"
+          "title": "顶栏",
+          "slug": "顶栏"
         },
         {
           "level": 3,
-          "title": "带有背景色的分页",
-          "slug": "带有背景色的分页"
+          "title": "侧栏",
+          "slug": "侧栏"
         },
         {
           "level": 3,
-          "title": "附加功能",
-          "slug": "附加功能"
+          "title": "Menu Attribute",
+          "slug": "menu-attribute"
+        },
+        {
+          "level": 3,
+          "title": "Menu Methods",
+          "slug": "menu-methods"
+        },
+        {
+          "level": 3,
+          "title": "Menu Events",
+          "slug": "menu-events"
+        },
+        {
+          "level": 3,
+          "title": "SubMenu Attribute",
+          "slug": "submenu-attribute"
+        },
+        {
+          "level": 3,
+          "title": "SubMenu Events",
+          "slug": "submenu-events"
+        },
+        {
+          "level": 3,
+          "title": "Menu-Item Attribute",
+          "slug": "menu-item-attribute"
+        },
+        {
+          "level": 3,
+          "title": "Menu-Item-Group Attribute",
+          "slug": "menu-item-group-attribute"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "Progress 进度条",
+      "frontmatter": {},
+      "regularPath": "/Aui/progress.html",
+      "relativePath": "Aui/progress.md",
+      "key": "v-17b12502",
+      "path": "/Aui/progress.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Progress 进度条",
+          "slug": "progress-进度条"
+        },
+        {
+          "level": 3,
+          "title": "线形进度条 — 百分比外显",
+          "slug": "线形进度条-百分比外显"
+        },
+        {
+          "level": 3,
+          "title": "线形进度条 — 百分比内显",
+          "slug": "线形进度条-百分比内显"
+        },
+        {
+          "level": 3,
+          "title": "环形进度条",
+          "slug": "环形进度条"
         },
         {
           "level": 3,
           "title": "Attributes",
           "slug": "attributes"
-        },
-        {
-          "level": 3,
-          "title": "Events",
-          "slug": "events"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -1220,43 +1215,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "Progress 进度条",
-      "frontmatter": {},
-      "regularPath": "/Aui/progress.html",
-      "relativePath": "Aui/progress.md",
-      "key": "v-17b12502",
-      "path": "/Aui/progress.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Progress 进度条",
-          "slug": "progress-进度条"
-        },
-        {
-          "level": 3,
-          "title": "线形进度条 — 百分比外显",
-          "slug": "线形进度条-百分比外显"
-        },
-        {
-          "level": 3,
-          "title": "线形进度条 — 百分比内显",
-          "slug": "线形进度条-百分比内显"
-        },
-        {
-          "level": 3,
-          "title": "环形进度条",
-          "slug": "环形进度条"
-        },
-        {
-          "level": 3,
-          "title": "Attributes",
-          "slug": "attributes"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
       "title": "Qrcode 二维码",
       "frontmatter": {},
       "regularPath": "/Aui/qrcode.html",
@@ -1283,6 +1241,48 @@ export const siteData = {
           "level": 3,
           "title": "Attributes",
           "slug": "attributes"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "Pagination 分页",
+      "frontmatter": {},
+      "regularPath": "/Aui/pagination.html",
+      "relativePath": "Aui/pagination.md",
+      "key": "v-2a1f7f30",
+      "path": "/Aui/pagination.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Pagination 分页",
+          "slug": "pagination-分页"
+        },
+        {
+          "level": 3,
+          "title": "基础用法",
+          "slug": "基础用法"
+        },
+        {
+          "level": 3,
+          "title": "带有背景色的分页",
+          "slug": "带有背景色的分页"
+        },
+        {
+          "level": 3,
+          "title": "附加功能",
+          "slug": "附加功能"
+        },
+        {
+          "level": 3,
+          "title": "Attributes",
+          "slug": "attributes"
+        },
+        {
+          "level": 3,
+          "title": "Events",
+          "slug": "events"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -1383,53 +1383,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "Roll 滚动公告栏",
-      "frontmatter": {},
-      "regularPath": "/Aui/roll.html",
-      "relativePath": "Aui/roll.md",
-      "key": "v-03b7aae2",
-      "path": "/Aui/roll.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Roll 滚动公告栏",
-          "slug": "roll-滚动公告栏"
-        },
-        {
-          "level": 2,
-          "title": "Roll 滚动公告栏",
-          "slug": "roll-滚动公告栏-2"
-        },
-        {
-          "level": 3,
-          "title": "基本用法",
-          "slug": "基本用法"
-        },
-        {
-          "level": 3,
-          "title": "横向滚动",
-          "slug": "横向滚动"
-        },
-        {
-          "level": 3,
-          "title": "图片滚动",
-          "slug": "图片滚动"
-        },
-        {
-          "level": 3,
-          "title": "Roll Attributes",
-          "slug": "roll-attributes"
-        },
-        {
-          "level": 3,
-          "title": "Roll Events",
-          "slug": "roll-events"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
       "title": "Select 选择器",
       "frontmatter": {},
       "regularPath": "/Aui/select.html",
@@ -1497,6 +1450,90 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
+      "title": "Roll 滚动公告栏",
+      "frontmatter": {},
+      "regularPath": "/Aui/roll.html",
+      "relativePath": "Aui/roll.md",
+      "key": "v-03b7aae2",
+      "path": "/Aui/roll.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Roll 滚动公告栏",
+          "slug": "roll-滚动公告栏"
+        },
+        {
+          "level": 2,
+          "title": "Roll 滚动公告栏",
+          "slug": "roll-滚动公告栏-2"
+        },
+        {
+          "level": 3,
+          "title": "基本用法",
+          "slug": "基本用法"
+        },
+        {
+          "level": 3,
+          "title": "横向滚动",
+          "slug": "横向滚动"
+        },
+        {
+          "level": 3,
+          "title": "图片滚动",
+          "slug": "图片滚动"
+        },
+        {
+          "level": 3,
+          "title": "Roll Attributes",
+          "slug": "roll-attributes"
+        },
+        {
+          "level": 3,
+          "title": "Roll Events",
+          "slug": "roll-events"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "Switch 开关",
+      "frontmatter": {},
+      "regularPath": "/Aui/switch.html",
+      "relativePath": "Aui/switch.md",
+      "key": "v-df418198",
+      "path": "/Aui/switch.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Switch 开关",
+          "slug": "switch-开关"
+        },
+        {
+          "level": 3,
+          "title": "基本用法",
+          "slug": "基本用法"
+        },
+        {
+          "level": 3,
+          "title": "禁用状态",
+          "slug": "禁用状态"
+        },
+        {
+          "level": 3,
+          "title": "Attributes",
+          "slug": "attributes"
+        },
+        {
+          "level": 3,
+          "title": "Events",
+          "slug": "events"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
       "title": "Slider 滑块",
       "frontmatter": {},
       "regularPath": "/Aui/slider.html",
@@ -1538,63 +1575,6 @@ export const siteData = {
           "level": 3,
           "title": "Events",
           "slug": "events"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "swiper 走马灯",
-      "frontmatter": {},
-      "regularPath": "/Aui/swiper.html",
-      "relativePath": "Aui/swiper.md",
-      "key": "v-7724d8ac",
-      "path": "/Aui/swiper.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "swiper 走马灯",
-          "slug": "swiper-走马灯"
-        },
-        {
-          "level": 3,
-          "title": "基础用法",
-          "slug": "基础用法"
-        },
-        {
-          "level": 3,
-          "title": "指示器",
-          "slug": "指示器"
-        },
-        {
-          "level": 3,
-          "title": "切换箭头",
-          "slug": "切换箭头"
-        },
-        {
-          "level": 3,
-          "title": "卡片化",
-          "slug": "卡片化"
-        },
-        {
-          "level": 3,
-          "title": "Attributes",
-          "slug": "attributes"
-        },
-        {
-          "level": 3,
-          "title": "Methods",
-          "slug": "methods"
-        },
-        {
-          "level": 3,
-          "title": "swiper Events",
-          "slug": "swiper-events"
-        },
-        {
-          "level": 3,
-          "title": "swiper-Item Attributes",
-          "slug": "swiper-item-attributes"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -1663,17 +1643,121 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "Switch 开关",
+      "title": "swiper 走马灯",
       "frontmatter": {},
-      "regularPath": "/Aui/switch.html",
-      "relativePath": "Aui/switch.md",
-      "key": "v-df418198",
-      "path": "/Aui/switch.html",
+      "regularPath": "/Aui/swiper.html",
+      "relativePath": "Aui/swiper.md",
+      "key": "v-7724d8ac",
+      "path": "/Aui/swiper.html",
       "headers": [
         {
           "level": 2,
-          "title": "Switch 开关",
-          "slug": "switch-开关"
+          "title": "swiper 走马灯",
+          "slug": "swiper-走马灯"
+        },
+        {
+          "level": 3,
+          "title": "基础用法",
+          "slug": "基础用法"
+        },
+        {
+          "level": 3,
+          "title": "指示器",
+          "slug": "指示器"
+        },
+        {
+          "level": 3,
+          "title": "切换箭头",
+          "slug": "切换箭头"
+        },
+        {
+          "level": 3,
+          "title": "卡片化",
+          "slug": "卡片化"
+        },
+        {
+          "level": 3,
+          "title": "Attributes",
+          "slug": "attributes"
+        },
+        {
+          "level": 3,
+          "title": "Methods",
+          "slug": "methods"
+        },
+        {
+          "level": 3,
+          "title": "swiper Events",
+          "slug": "swiper-events"
+        },
+        {
+          "level": 3,
+          "title": "swiper-Item Attributes",
+          "slug": "swiper-item-attributes"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "Tag 标签",
+      "frontmatter": {},
+      "regularPath": "/Aui/tag.html",
+      "relativePath": "Aui/tag.md",
+      "key": "v-28dcfdb8",
+      "path": "/Aui/tag.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Tag 标签",
+          "slug": "tag-标签"
+        },
+        {
+          "level": 3,
+          "title": "基础用法",
+          "slug": "基础用法"
+        },
+        {
+          "level": 3,
+          "title": "可移除标签",
+          "slug": "可移除标签"
+        },
+        {
+          "level": 3,
+          "title": "标签close事件",
+          "slug": "标签close事件"
+        },
+        {
+          "level": 3,
+          "title": "不同尺寸",
+          "slug": "不同尺寸"
+        },
+        {
+          "level": 3,
+          "title": "Attributes",
+          "slug": "attributes"
+        },
+        {
+          "level": 3,
+          "title": "Events",
+          "slug": "events"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "Textarea 文本域",
+      "frontmatter": {},
+      "regularPath": "/Aui/textarea.html",
+      "relativePath": "Aui/textarea.md",
+      "key": "v-f94e15b0",
+      "path": "/Aui/textarea.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Textarea 文本域",
+          "slug": "textarea-文本域"
         },
         {
           "level": 3,
@@ -1687,6 +1771,16 @@ export const siteData = {
         },
         {
           "level": 3,
+          "title": "最大长度",
+          "slug": "最大长度"
+        },
+        {
+          "level": 3,
+          "title": "显示行数",
+          "slug": "显示行数"
+        },
+        {
+          "level": 3,
           "title": "Attributes",
           "slug": "attributes"
         },
@@ -1694,6 +1788,11 @@ export const siteData = {
           "level": 3,
           "title": "Events",
           "slug": "events"
+        },
+        {
+          "level": 2,
+          "title": "VueComponent API",
+          "slug": "vuecomponent-api"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -1771,58 +1870,6 @@ export const siteData = {
           "level": 3,
           "title": "Tab-item Slot",
           "slug": "tab-item-slot"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "Textarea 文本域",
-      "frontmatter": {},
-      "regularPath": "/Aui/textarea.html",
-      "relativePath": "Aui/textarea.md",
-      "key": "v-f94e15b0",
-      "path": "/Aui/textarea.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Textarea 文本域",
-          "slug": "textarea-文本域"
-        },
-        {
-          "level": 3,
-          "title": "基本用法",
-          "slug": "基本用法"
-        },
-        {
-          "level": 3,
-          "title": "禁用状态",
-          "slug": "禁用状态"
-        },
-        {
-          "level": 3,
-          "title": "最大长度",
-          "slug": "最大长度"
-        },
-        {
-          "level": 3,
-          "title": "显示行数",
-          "slug": "显示行数"
-        },
-        {
-          "level": 3,
-          "title": "Attributes",
-          "slug": "attributes"
-        },
-        {
-          "level": 3,
-          "title": "Events",
-          "slug": "events"
-        },
-        {
-          "level": 2,
-          "title": "VueComponent API",
-          "slug": "vuecomponent-api"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -1926,64 +1973,17 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "Time 时间选择器",
+      "title": "Transfer 穿梭框",
       "frontmatter": {},
-      "regularPath": "/Aui/time.html",
-      "relativePath": "Aui/time.md",
-      "key": "v-01fc3b7c",
-      "path": "/Aui/time.html",
+      "regularPath": "/Aui/transfer.html",
+      "relativePath": "Aui/transfer.md",
+      "key": "v-286279f4",
+      "path": "/Aui/transfer.html",
       "headers": [
         {
           "level": 2,
-          "title": "Time 时间选择器",
-          "slug": "time-时间选择器"
-        },
-        {
-          "level": 3,
-          "title": "固定时间点",
-          "slug": "固定时间点"
-        },
-        {
-          "level": 3,
-          "title": "任意时间点",
-          "slug": "任意时间点"
-        },
-        {
-          "level": 3,
-          "title": "固定时间范围",
-          "slug": "固定时间范围"
-        },
-        {
-          "level": 3,
-          "title": "任意时间范围",
-          "slug": "任意时间范围"
-        },
-        {
-          "level": 3,
-          "title": "Attributes",
-          "slug": "attributes"
-        },
-        {
-          "level": 3,
-          "title": "Events",
-          "slug": "events"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "Tag 标签",
-      "frontmatter": {},
-      "regularPath": "/Aui/tag.html",
-      "relativePath": "Aui/tag.md",
-      "key": "v-28dcfdb8",
-      "path": "/Aui/tag.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Tag 标签",
-          "slug": "tag-标签"
+          "title": "Transfer 穿梭框",
+          "slug": "transfer-穿梭框"
         },
         {
           "level": 3,
@@ -1992,18 +1992,18 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "可移除标签",
-          "slug": "可移除标签"
+          "title": "可搜索",
+          "slug": "可搜索"
         },
         {
           "level": 3,
-          "title": "标签close事件",
-          "slug": "标签close事件"
+          "title": "可自定义",
+          "slug": "可自定义"
         },
         {
           "level": 3,
-          "title": "不同尺寸",
-          "slug": "不同尺寸"
+          "title": "数据项属性别名",
+          "slug": "数据项属性别名"
         },
         {
           "level": 3,
@@ -2012,40 +2012,13 @@ export const siteData = {
         },
         {
           "level": 3,
-          "title": "Events",
-          "slug": "events"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "TimeLine 时间线",
-      "frontmatter": {},
-      "regularPath": "/Aui/timeline.html",
-      "relativePath": "Aui/timeline.md",
-      "key": "v-3fd701da",
-      "path": "/Aui/timeline.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "TimeLine 时间线",
-          "slug": "timeline-时间线"
+          "title": "Slot",
+          "slug": "slot"
         },
         {
           "level": 3,
-          "title": "基础用法",
-          "slug": "基础用法"
-        },
-        {
-          "level": 2,
-          "title": "timeline Attributes",
-          "slug": "timeline-attributes"
-        },
-        {
-          "level": 2,
-          "title": "timelineItem Attributes",
-          "slug": "timelineitem-attributes"
+          "title": "Events",
+          "slug": "events"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -2104,6 +2077,38 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
+      "title": "TimeLine 时间线",
+      "frontmatter": {},
+      "regularPath": "/Aui/timeline.html",
+      "relativePath": "Aui/timeline.md",
+      "key": "v-3fd701da",
+      "path": "/Aui/timeline.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "TimeLine 时间线",
+          "slug": "timeline-时间线"
+        },
+        {
+          "level": 3,
+          "title": "基础用法",
+          "slug": "基础用法"
+        },
+        {
+          "level": 2,
+          "title": "timeline Attributes",
+          "slug": "timeline-attributes"
+        },
+        {
+          "level": 2,
+          "title": "timelineItem Attributes",
+          "slug": "timelineitem-attributes"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
       "title": "Tooltip 文字提示",
       "frontmatter": {},
       "regularPath": "/Aui/tooltip.html",
@@ -2140,6 +2145,53 @@ export const siteData = {
           "level": 3,
           "title": "Attributes",
           "slug": "attributes"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "Time 时间选择器",
+      "frontmatter": {},
+      "regularPath": "/Aui/time.html",
+      "relativePath": "Aui/time.md",
+      "key": "v-01fc3b7c",
+      "path": "/Aui/time.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Time 时间选择器",
+          "slug": "time-时间选择器"
+        },
+        {
+          "level": 3,
+          "title": "固定时间点",
+          "slug": "固定时间点"
+        },
+        {
+          "level": 3,
+          "title": "任意时间点",
+          "slug": "任意时间点"
+        },
+        {
+          "level": 3,
+          "title": "固定时间范围",
+          "slug": "固定时间范围"
+        },
+        {
+          "level": 3,
+          "title": "任意时间范围",
+          "slug": "任意时间范围"
+        },
+        {
+          "level": 3,
+          "title": "Attributes",
+          "slug": "attributes"
+        },
+        {
+          "level": 3,
+          "title": "Events",
+          "slug": "events"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -2238,58 +2290,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "Transfer 穿梭框",
-      "frontmatter": {},
-      "regularPath": "/Aui/transfer.html",
-      "relativePath": "Aui/transfer.md",
-      "key": "v-286279f4",
-      "path": "/Aui/transfer.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "Transfer 穿梭框",
-          "slug": "transfer-穿梭框"
-        },
-        {
-          "level": 3,
-          "title": "基础用法",
-          "slug": "基础用法"
-        },
-        {
-          "level": 3,
-          "title": "可搜索",
-          "slug": "可搜索"
-        },
-        {
-          "level": 3,
-          "title": "可自定义",
-          "slug": "可自定义"
-        },
-        {
-          "level": 3,
-          "title": "数据项属性别名",
-          "slug": "数据项属性别名"
-        },
-        {
-          "level": 3,
-          "title": "Attributes",
-          "slug": "attributes"
-        },
-        {
-          "level": 3,
-          "title": "Slot",
-          "slug": "slot"
-        },
-        {
-          "level": 3,
-          "title": "Events",
-          "slug": "events"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
       "title": "Type 打字组件",
       "frontmatter": {},
       "regularPath": "/Aui/type.html",
@@ -2330,6 +2330,207 @@ export const siteData = {
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
       "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "开发手册",
+      "frontmatter": {
+        "sidebar": true,
+        "sidebarDepth": 3
+      },
+      "regularPath": "/Git/dev-handbook.html",
+      "relativePath": "Git/dev-handbook.md",
+      "key": "v-5e00ef94",
+      "path": "/Git/dev-handbook.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "gitlab",
+          "slug": "gitlab"
+        },
+        {
+          "level": 3,
+          "title": "分支说明",
+          "slug": "分支说明"
+        },
+        {
+          "level": 3,
+          "title": "分支命名",
+          "slug": "分支命名"
+        },
+        {
+          "level": 3,
+          "title": "commit规范",
+          "slug": "commit规范"
+        },
+        {
+          "level": 3,
+          "title": "市场分支建立",
+          "slug": "市场分支建立"
+        },
+        {
+          "level": 3,
+          "title": "分支合并",
+          "slug": "分支合并"
+        },
+        {
+          "level": 3,
+          "title": "使用MergeRequest(MR)",
+          "slug": "使用mergerequest-mr"
+        },
+        {
+          "level": 2,
+          "title": "tapd",
+          "slug": "tapd"
+        },
+        {
+          "level": 3,
+          "title": "分配/接受任务",
+          "slug": "分配-接受任务"
+        },
+        {
+          "level": 3,
+          "title": "状态流转",
+          "slug": "状态流转"
+        },
+        {
+          "level": 3,
+          "title": "相关附件及说明",
+          "slug": "相关附件及说明"
+        },
+        {
+          "level": 3,
+          "title": "deadline",
+          "slug": "deadline"
+        }
+      ]
+    },
+    {
+      "title": "代码版本管理规范及基本操作手册",
+      "frontmatter": {},
+      "regularPath": "/Git/",
+      "relativePath": "Git/README.md",
+      "key": "v-07f6b691",
+      "path": "/Git/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "代码版本管理规范及基本操作手册",
+          "slug": "代码版本管理规范及基本操作手册"
+        }
+      ]
+    },
+    {
+      "title": "FAQ",
+      "frontmatter": {
+        "sidebar": true,
+        "sidebarDepth": 2
+      },
+      "regularPath": "/FAQ/FAQ.html",
+      "relativePath": "FAQ/FAQ.md",
+      "key": "v-08223578",
+      "path": "/FAQ/FAQ.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 企业微信无法登录",
+          "slug": "_1-企业微信无法登录"
+        },
+        {
+          "level": 2,
+          "title": "2. 切换 npm 下载源",
+          "slug": "_2-切换-npm-下载源"
+        },
+        {
+          "level": 2,
+          "title": "3. 离线文档下载",
+          "slug": "_3-离线文档下载"
+        },
+        {
+          "level": 2,
+          "title": "4.如何创建Tapd需求和缺陷",
+          "slug": "_4-如何创建tapd需求和缺陷"
+        },
+        {
+          "level": 3,
+          "title": "选择项目",
+          "slug": "选择项目"
+        },
+        {
+          "level": 3,
+          "title": "创建需求（缺陷）",
+          "slug": "创建需求-缺陷"
+        },
+        {
+          "level": 3,
+          "title": "必填项",
+          "slug": "必填项"
+        },
+        {
+          "level": 3,
+          "title": "附件",
+          "slug": "附件"
+        },
+        {
+          "level": 3,
+          "title": "图例",
+          "slug": "图例"
+        },
+        {
+          "level": 2,
+          "title": "5.如何处理Tapd需求和缺陷",
+          "slug": "_5-如何处理tapd需求和缺陷"
+        },
+        {
+          "level": 3,
+          "title": "任务分配流程",
+          "slug": "任务分配流程"
+        },
+        {
+          "level": 3,
+          "title": "处理人&状态流转",
+          "slug": "处理人-状态流转"
+        },
+        {
+          "level": 3,
+          "title": "评论和附件等相关使用",
+          "slug": "评论和附件等相关使用"
+        },
+        {
+          "level": 3,
+          "title": "图示",
+          "slug": "图示"
+        },
+        {
+          "level": 3,
+          "title": "图例",
+          "slug": "图例-2"
+        },
+        {
+          "level": 2,
+          "title": "6.如何查看当前使用的npm包版本",
+          "slug": "_6-如何查看当前使用的npm包版本"
+        },
+        {
+          "level": 2,
+          "title": "7.node-sass向dart-sass 迁移",
+          "slug": "_7-node-sass向dart-sass-迁移"
+        },
+        {
+          "level": 3,
+          "title": "1.更新依赖",
+          "slug": "_1-更新依赖"
+        },
+        {
+          "level": 3,
+          "title": "2.更新语法",
+          "slug": "_2-更新语法"
+        },
+        {
+          "level": 2,
+          "title": "8.embedpanel迁移",
+          "slug": "_8-embedpanel迁移"
+        }
+      ]
     },
     {
       "title": "Upload 上传",
@@ -2399,28 +2600,212 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
+      "title": "npm私有仓库的查看、发布及安装介绍",
+      "frontmatter": {},
+      "regularPath": "/Npm/",
+      "relativePath": "Npm/README.md",
+      "key": "v-719f2e5f",
+      "path": "/Npm/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "npm私有仓库的查看、发布及安装介绍",
+          "slug": "npm私有仓库的查看、发布及安装介绍"
+        }
+      ]
+    },
+    {
+      "title": "npm私有仓库使用指南",
+      "frontmatter": {
+        "sidebar": true,
+        "sidebarDepth": 3
+      },
+      "regularPath": "/Npm/internal-npm.html",
+      "relativePath": "Npm/internal-npm.md",
+      "key": "v-49516612",
+      "path": "/Npm/internal-npm.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "登录管理端",
+          "slug": "登录管理端"
+        },
+        {
+          "level": 2,
+          "title": "安装",
+          "slug": "安装"
+        },
+        {
+          "level": 2,
+          "title": "发布",
+          "slug": "发布"
+        },
+        {
+          "level": 3,
+          "title": "通过命令行",
+          "slug": "通过命令行"
+        },
+        {
+          "level": 2,
+          "title": "下载离线私库资源包",
+          "slug": "下载离线私库资源包"
+        },
+        {
+          "level": 2,
+          "title": "如何将私库包发布到其他仓库",
+          "slug": "如何将私库包发布到其他仓库"
+        },
+        {
+          "level": 3,
+          "title": "1.获取私库依赖包",
+          "slug": "_1-获取私库依赖包"
+        },
+        {
+          "level": 3,
+          "title": "2.上传依赖包",
+          "slug": "_2-上传依赖包"
+        }
+      ]
+    },
+    {
+      "title": "Git规范及常用操作",
+      "frontmatter": {
+        "sidebar": true,
+        "sidebarDepth": 3
+      },
+      "regularPath": "/Git/git-guide.html",
+      "relativePath": "Git/git-guide.md",
+      "key": "v-bcbd70b8",
+      "path": "/Git/git-guide.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "Git规范(Beta)",
+          "slug": "git规范-beta"
+        },
+        {
+          "level": 2,
+          "title": "Git常用操作",
+          "slug": "git常用操作"
+        },
+        {
+          "level": 3,
+          "title": "设置用户名/邮箱",
+          "slug": "设置用户名-邮箱"
+        },
+        {
+          "level": 3,
+          "title": "初始化本地git库",
+          "slug": "初始化本地git库"
+        },
+        {
+          "level": 3,
+          "title": "本地库连接到远程",
+          "slug": "本地库连接到远程"
+        },
+        {
+          "level": 3,
+          "title": "克隆仓库",
+          "slug": "克隆仓库"
+        },
+        {
+          "level": 3,
+          "title": "迁移git库",
+          "slug": "迁移git库"
+        },
+        {
+          "level": 3,
+          "title": "拉取代码",
+          "slug": "拉取代码"
+        },
+        {
+          "level": 3,
+          "title": "提交代码",
+          "slug": "提交代码"
+        },
+        {
+          "level": 3,
+          "title": "修改提交历史",
+          "slug": "修改提交历史"
+        },
+        {
+          "level": 3,
+          "title": "查看文件状态",
+          "slug": "查看文件状态"
+        },
+        {
+          "level": 3,
+          "title": "查看提交记录",
+          "slug": "查看提交记录"
+        },
+        {
+          "level": 3,
+          "title": "取消文件修改",
+          "slug": "取消文件修改"
+        },
+        {
+          "level": 3,
+          "title": "撤回暂存区的文件",
+          "slug": "撤回暂存区的文件"
+        },
+        {
+          "level": 3,
+          "title": "查看某次commit的提交信息",
+          "slug": "查看某次commit的提交信息"
+        },
+        {
+          "level": 3,
+          "title": "撤回commit",
+          "slug": "撤回commit"
+        },
+        {
+          "level": 3,
+          "title": "重置代码到某次提交",
+          "slug": "重置代码到某次提交"
+        },
+        {
+          "level": 3,
+          "title": "分支管理",
+          "slug": "分支管理"
+        },
+        {
+          "level": 3,
+          "title": "cherry-pick",
+          "slug": "cherry-pick"
+        },
+        {
+          "level": 3,
+          "title": "贮藏(stash)",
+          "slug": "贮藏-stash"
+        },
+        {
+          "level": 3,
+          "title": "标签(tag)",
+          "slug": "标签-tag"
+        },
+        {
+          "level": 3,
+          "title": "远程地址",
+          "slug": "远程地址"
+        },
+        {
+          "level": 3,
+          "title": "重命名大小写不敏感问题",
+          "slug": "重命名大小写不敏感问题"
+        },
+        {
+          "level": 3,
+          "title": "杂项",
+          "slug": "杂项"
+        }
+      ]
+    },
+    {
       "frontmatter": {},
       "regularPath": "/Sdk/",
       "relativePath": "Sdk/README.md",
       "key": "v-853ee47e",
       "path": "/Sdk/",
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "ab-logger-upload @前端LogUpload",
-      "frontmatter": {},
-      "regularPath": "/Sdk/ab-logger-upload.html",
-      "relativePath": "Sdk/ab-logger-upload.md",
-      "key": "v-c45cdc7c",
-      "path": "/Sdk/ab-logger-upload.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "diffUploadLog --作用于差量上传日志",
-          "slug": "diffuploadlog-作用于差量上传日志"
-        }
-      ],
       "lastUpdated": "2022/4/15 下午5:07:24",
       "lastUpdatedTimestamp": 1650013644000
     },
@@ -2434,7 +2819,8 @@ export const siteData = {
           "display": "block",
           "margin": "20px"
         },
-        "heroText": "portal website",
+        "heroText": null,
+        "description": "portal website",
         "actionText": "快速上手 →",
         "actionLink": "/Aui/"
       },
@@ -2442,93 +2828,21 @@ export const siteData = {
       "relativePath": "README.md",
       "key": "v-04e3086a",
       "path": "/",
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
+      "lastUpdated": "2022/4/16 下午5:50:07",
+      "lastUpdatedTimestamp": 1650102607000
     },
     {
-      "title": "ab-logger@日志管理",
+      "title": "ab-logger-upload @前端LogUpload",
       "frontmatter": {},
-      "regularPath": "/Sdk/ab-logger.html",
-      "relativePath": "Sdk/ab-logger.md",
-      "key": "v-1a06bd78",
-      "path": "/Sdk/ab-logger.html",
+      "regularPath": "/Sdk/ab-logger-upload.html",
+      "relativePath": "Sdk/ab-logger-upload.md",
+      "key": "v-c45cdc7c",
+      "path": "/Sdk/ab-logger-upload.html",
       "headers": [
         {
           "level": 3,
-          "title": "日志级别",
-          "slug": "日志级别"
-        },
-        {
-          "level": 3,
-          "title": "使用说明",
-          "slug": "使用说明"
-        },
-        {
-          "level": 3,
-          "title": "接口调用",
-          "slug": "接口调用"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "ab-manager-auf@轻量级画面流管理",
-      "frontmatter": {},
-      "regularPath": "/Sdk/ab-manager-auf.html",
-      "relativePath": "Sdk/ab-manager-auf.md",
-      "key": "v-543b261a",
-      "path": "/Sdk/ab-manager-auf.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "使用",
-          "slug": "使用"
-        },
-        {
-          "level": 3,
-          "title": "1. 创建一个xxx.auf.json",
-          "slug": "_1-创建一个xxx-auf-json"
-        },
-        {
-          "level": 3,
-          "title": "2. 在主交易中使用如下",
-          "slug": "_2-在主交易中使用如下"
-        },
-        {
-          "level": 3,
-          "title": "3. 创建UI节点",
-          "slug": "_3-创建ui节点"
-        },
-        {
-          "level": 3,
-          "title": "4. 创建LFC节点",
-          "slug": "_4-创建lfc节点"
-        },
-        {
-          "level": 3,
-          "title": "AUF.JSON 文件的说明",
-          "slug": "auf-json-文件的说明"
-        },
-        {
-          "level": 3,
-          "title": "UI节点的注意事项",
-          "slug": "ui节点的注意事项"
-        },
-        {
-          "level": 3,
-          "title": "LFC 节点的说明",
-          "slug": "lfc-节点的说明"
-        },
-        {
-          "level": 2,
-          "title": "节点中可使用的方法",
-          "slug": "节点中可使用的方法"
-        },
-        {
-          "level": 2,
-          "title": "节点中可以使用的属性",
-          "slug": "节点中可以使用的属性"
+          "title": "diffUploadLog --作用于差量上传日志",
+          "slug": "diffuploadlog-作用于差量上传日志"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -2562,27 +2876,27 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "ab-manager-communication-iframe@父窗口与交易iframe之间通讯",
+      "title": "ab-logger@日志管理",
       "frontmatter": {},
-      "regularPath": "/Sdk/ab-manager-communication-iframe.html",
-      "relativePath": "Sdk/ab-manager-communication-iframe.md",
-      "key": "v-c696f938",
-      "path": "/Sdk/ab-manager-communication-iframe.html",
+      "regularPath": "/Sdk/ab-logger.html",
+      "relativePath": "Sdk/ab-logger.md",
+      "key": "v-1a06bd78",
+      "path": "/Sdk/ab-logger.html",
       "headers": [
         {
-          "level": 2,
-          "title": "1. 引入",
-          "slug": "_1-引入"
+          "level": 3,
+          "title": "日志级别",
+          "slug": "日志级别"
         },
         {
-          "level": 2,
-          "title": "2. 父页面向子页面发送消息：",
-          "slug": "_2-父页面向子页面发送消息"
+          "level": 3,
+          "title": "使用说明",
+          "slug": "使用说明"
         },
         {
-          "level": 2,
-          "title": "3. 子页面向父页面发送消息：",
-          "slug": "_3-子页面向父页面发送消息"
+          "level": 3,
+          "title": "接口调用",
+          "slug": "接口调用"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -2650,6 +2964,68 @@ export const siteData = {
           "level": 3,
           "title": "Base64",
           "slug": "base64"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "ab-manager-auf@轻量级画面流管理",
+      "frontmatter": {},
+      "regularPath": "/Sdk/ab-manager-auf.html",
+      "relativePath": "Sdk/ab-manager-auf.md",
+      "key": "v-543b261a",
+      "path": "/Sdk/ab-manager-auf.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "使用",
+          "slug": "使用"
+        },
+        {
+          "level": 3,
+          "title": "1. 创建一个xxx.auf.json",
+          "slug": "_1-创建一个xxx-auf-json"
+        },
+        {
+          "level": 3,
+          "title": "2. 在主交易中使用如下",
+          "slug": "_2-在主交易中使用如下"
+        },
+        {
+          "level": 3,
+          "title": "3. 创建UI节点",
+          "slug": "_3-创建ui节点"
+        },
+        {
+          "level": 3,
+          "title": "4. 创建LFC节点",
+          "slug": "_4-创建lfc节点"
+        },
+        {
+          "level": 3,
+          "title": "AUF.JSON 文件的说明",
+          "slug": "auf-json-文件的说明"
+        },
+        {
+          "level": 3,
+          "title": "UI节点的注意事项",
+          "slug": "ui节点的注意事项"
+        },
+        {
+          "level": 3,
+          "title": "LFC 节点的说明",
+          "slug": "lfc-节点的说明"
+        },
+        {
+          "level": 2,
+          "title": "节点中可使用的方法",
+          "slug": "节点中可使用的方法"
+        },
+        {
+          "level": 2,
+          "title": "节点中可以使用的属性",
+          "slug": "节点中可以使用的属性"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -2732,6 +3108,33 @@ export const siteData = {
           "level": 2,
           "title": "14. 自定义多条件精准筛选",
           "slug": "_14-自定义多条件精准筛选"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "ab-manager-communication-iframe@父窗口与交易iframe之间通讯",
+      "frontmatter": {},
+      "regularPath": "/Sdk/ab-manager-communication-iframe.html",
+      "relativePath": "Sdk/ab-manager-communication-iframe.md",
+      "key": "v-c696f938",
+      "path": "/Sdk/ab-manager-communication-iframe.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 引入",
+          "slug": "_1-引入"
+        },
+        {
+          "level": 2,
+          "title": "2. 父页面向子页面发送消息：",
+          "slug": "_2-父页面向子页面发送消息"
+        },
+        {
+          "level": 2,
+          "title": "3. 子页面向父页面发送消息：",
+          "slug": "_3-子页面向父页面发送消息"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -2834,55 +3237,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "ab-manager-hotkey@热键管理",
-      "frontmatter": {},
-      "regularPath": "/Sdk/ab-manager-hotkey.html",
-      "relativePath": "Sdk/ab-manager-hotkey.md",
-      "key": "v-44b1d004",
-      "path": "/Sdk/ab-manager-hotkey.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "1.引入",
-          "slug": "_1-引入"
-        },
-        {
-          "level": 3,
-          "title": "2.注册",
-          "slug": "_2-注册"
-        },
-        {
-          "level": 3,
-          "title": "3. 删除热键",
-          "slug": "_3-删除热键"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "ab-manager-hotload@热加载",
-      "frontmatter": {},
-      "regularPath": "/Sdk/ab-manager-hotload.html",
-      "relativePath": "Sdk/ab-manager-hotload.md",
-      "key": "v-0cdb4118",
-      "path": "/Sdk/ab-manager-hotload.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "1.引入",
-          "slug": "_1-引入"
-        },
-        {
-          "level": 3,
-          "title": "2.使用",
-          "slug": "_2-使用"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
       "title": "ab-manager-focus2@焦点管理",
       "frontmatter": {},
       "regularPath": "/Sdk/ab-manager-focus2.html",
@@ -2955,22 +3309,76 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "ab-manager-page@页面管理",
+      "title": "ab-manager-hotload@热加载",
       "frontmatter": {},
-      "regularPath": "/Sdk/ab-manager-page.html",
-      "relativePath": "Sdk/ab-manager-page.md",
-      "key": "v-3314c5e4",
-      "path": "/Sdk/ab-manager-page.html",
+      "regularPath": "/Sdk/ab-manager-hotload.html",
+      "relativePath": "Sdk/ab-manager-hotload.md",
+      "key": "v-0cdb4118",
+      "path": "/Sdk/ab-manager-hotload.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "1.引入",
+          "slug": "_1-引入"
+        },
+        {
+          "level": 3,
+          "title": "2.使用",
+          "slug": "_2-使用"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "ab-manager-hotkey@热键管理",
+      "frontmatter": {},
+      "regularPath": "/Sdk/ab-manager-hotkey.html",
+      "relativePath": "Sdk/ab-manager-hotkey.md",
+      "key": "v-44b1d004",
+      "path": "/Sdk/ab-manager-hotkey.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "1.引入",
+          "slug": "_1-引入"
+        },
+        {
+          "level": 3,
+          "title": "2.注册",
+          "slug": "_2-注册"
+        },
+        {
+          "level": 3,
+          "title": "3. 删除热键",
+          "slug": "_3-删除热键"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "ab-manager-storage@全局缓存数据",
+      "frontmatter": {},
+      "regularPath": "/Sdk/ab-manager-storage.html",
+      "relativePath": "Sdk/ab-manager-storage.md",
+      "key": "v-67183588",
+      "path": "/Sdk/ab-manager-storage.html",
       "headers": [
         {
           "level": 2,
-          "title": "引入",
-          "slug": "引入"
+          "title": "1. 引入",
+          "slug": "_1-引入"
         },
         {
           "level": 2,
-          "title": "获取页面",
-          "slug": "获取页面"
+          "title": "2. 使用：",
+          "slug": "_2-使用"
+        },
+        {
+          "level": 2,
+          "title": "3. 设置可修改数据",
+          "slug": "_3-设置可修改数据"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -3029,39 +3437,34 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "ab-manager-storage@全局缓存数据",
+      "title": "ab-manager-page@页面管理",
       "frontmatter": {},
-      "regularPath": "/Sdk/ab-manager-storage.html",
-      "relativePath": "Sdk/ab-manager-storage.md",
-      "key": "v-67183588",
-      "path": "/Sdk/ab-manager-storage.html",
+      "regularPath": "/Sdk/ab-manager-page.html",
+      "relativePath": "Sdk/ab-manager-page.md",
+      "key": "v-3314c5e4",
+      "path": "/Sdk/ab-manager-page.html",
       "headers": [
         {
           "level": 2,
-          "title": "1. 引入",
-          "slug": "_1-引入"
+          "title": "引入",
+          "slug": "引入"
         },
         {
           "level": 2,
-          "title": "2. 使用：",
-          "slug": "_2-使用"
-        },
-        {
-          "level": 2,
-          "title": "3. 设置可修改数据",
-          "slug": "_3-设置可修改数据"
+          "title": "获取页面",
+          "slug": "获取页面"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "ab-manager-trade@交易管理--柜面特有",
+      "title": "ab-manager-trade-track@交易链路追踪",
       "frontmatter": {},
-      "regularPath": "/Sdk/ab-manager-trade.html",
-      "relativePath": "Sdk/ab-manager-trade.md",
-      "key": "v-01604676",
-      "path": "/Sdk/ab-manager-trade.html",
+      "regularPath": "/Sdk/ab-manager-trade-track.html",
+      "relativePath": "Sdk/ab-manager-trade-track.md",
+      "key": "v-6cc1d93a",
+      "path": "/Sdk/ab-manager-trade-track.html",
       "headers": [
         {
           "level": 2,
@@ -3070,23 +3473,8 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "2.方法",
-          "slug": "_2-方法"
-        },
-        {
-          "level": 2,
-          "title": "3.使用",
-          "slug": "_3-使用"
-        },
-        {
-          "level": 3,
-          "title": "Panel",
-          "slug": "panel"
-        },
-        {
-          "level": 3,
-          "title": "交易操作",
-          "slug": "交易操作"
+          "title": "2. 事件方法的使用",
+          "slug": "_2-事件方法的使用"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -3130,12 +3518,12 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "ab-manager-trade-track@交易链路追踪",
+      "title": "ab-manager-websocket@websocket连接",
       "frontmatter": {},
-      "regularPath": "/Sdk/ab-manager-trade-track.html",
-      "relativePath": "Sdk/ab-manager-trade-track.md",
-      "key": "v-6cc1d93a",
-      "path": "/Sdk/ab-manager-trade-track.html",
+      "regularPath": "/Sdk/ab-manager-websocket.html",
+      "relativePath": "Sdk/ab-manager-websocket.md",
+      "key": "v-bf134920",
+      "path": "/Sdk/ab-manager-websocket.html",
       "headers": [
         {
           "level": 2,
@@ -3144,8 +3532,55 @@ export const siteData = {
         },
         {
           "level": 2,
-          "title": "2. 事件方法的使用",
-          "slug": "_2-事件方法的使用"
+          "title": "2. 事件使用说明",
+          "slug": "_2-事件使用说明"
+        },
+        {
+          "level": 2,
+          "title": "3. 方法使用说明",
+          "slug": "_3-方法使用说明"
+        },
+        {
+          "level": 2,
+          "title": "4. 使用案例",
+          "slug": "_4-使用案例"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "ab-manager-trade@交易管理--柜面特有",
+      "frontmatter": {},
+      "regularPath": "/Sdk/ab-manager-trade.html",
+      "relativePath": "Sdk/ab-manager-trade.md",
+      "key": "v-01604676",
+      "path": "/Sdk/ab-manager-trade.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1. 引入",
+          "slug": "_1-引入"
+        },
+        {
+          "level": 2,
+          "title": "2.方法",
+          "slug": "_2-方法"
+        },
+        {
+          "level": 2,
+          "title": "3.使用",
+          "slug": "_3-使用"
+        },
+        {
+          "level": 3,
+          "title": "Panel",
+          "slug": "panel"
+        },
+        {
+          "level": 3,
+          "title": "交易操作",
+          "slug": "交易操作"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -3183,38 +3618,6 @@ export const siteData = {
           "level": 3,
           "title": "clearWatermark方法参数",
           "slug": "clearwatermark方法参数"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "ab-manager-websocket@websocket连接",
-      "frontmatter": {},
-      "regularPath": "/Sdk/ab-manager-websocket.html",
-      "relativePath": "Sdk/ab-manager-websocket.md",
-      "key": "v-bf134920",
-      "path": "/Sdk/ab-manager-websocket.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1. 引入",
-          "slug": "_1-引入"
-        },
-        {
-          "level": 2,
-          "title": "2. 事件使用说明",
-          "slug": "_2-事件使用说明"
-        },
-        {
-          "level": 2,
-          "title": "3. 方法使用说明",
-          "slug": "_3-方法使用说明"
-        },
-        {
-          "level": 2,
-          "title": "4. 使用案例",
-          "slug": "_4-使用案例"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -3499,6 +3902,23 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
+      "title": "ab-plugin-communication-bridge@前端通信桥接器",
+      "frontmatter": {},
+      "regularPath": "/Sdk/ab-plugin-communication-bridge.html",
+      "relativePath": "Sdk/ab-plugin-communication-bridge.md",
+      "key": "v-0d1a71ca",
+      "path": "/Sdk/ab-plugin-communication-bridge.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "sendAsync --发送报文",
+          "slug": "sendasync-发送报文"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
       "title": "ab-plugin-customize 自定义组件",
       "frontmatter": {},
       "regularPath": "/Sdk/ab-plugin-customize.html",
@@ -3525,23 +3945,6 @@ export const siteData = {
           "level": 3,
           "title": "Customize.call -- 以同异步方式调用接口",
           "slug": "customize-call-以同异步方式调用接口"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "ab-plugin-communication-bridge@前端通信桥接器",
-      "frontmatter": {},
-      "regularPath": "/Sdk/ab-plugin-communication-bridge.html",
-      "relativePath": "Sdk/ab-plugin-communication-bridge.md",
-      "key": "v-0d1a71ca",
-      "path": "/Sdk/ab-plugin-communication-bridge.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "sendAsync --发送报文",
-          "slug": "sendasync-发送报文"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -3599,73 +4002,6 @@ export const siteData = {
           "level": 3,
           "title": "jsSubscribeReady --js消息订阅完成",
           "slug": "jssubscribeready-js消息订阅完成"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "ab-plugin-embed-scrcu-jieao@前端内嵌捷奥影像控件",
-      "frontmatter": {},
-      "regularPath": "/Sdk/ab-plugin-embed-scrcu-jieao.html",
-      "relativePath": "Sdk/ab-plugin-embed-scrcu-jieao.md",
-      "key": "v-95aa98b8",
-      "path": "/Sdk/ab-plugin-embed-scrcu-jieao.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "1.引入",
-          "slug": "_1-引入"
-        },
-        {
-          "level": 2,
-          "title": "2.使用",
-          "slug": "_2-使用"
-        },
-        {
-          "level": 3,
-          "title": "init --发送内嵌请求初始化",
-          "slug": "init-发送内嵌请求初始化"
-        },
-        {
-          "level": 3,
-          "title": "show --发送内嵌请求初始化显示界面，在init之后立刻执行",
-          "slug": "show-发送内嵌请求初始化显示界面-在init之后立刻执行"
-        },
-        {
-          "level": 3,
-          "title": "commit --提交",
-          "slug": "commit-提交"
-        },
-        {
-          "level": 3,
-          "title": "showImage --影像调阅",
-          "slug": "showimage-影像调阅"
-        },
-        {
-          "level": 3,
-          "title": "finish --执行销毁捷奥影像exe，关闭窗体",
-          "slug": "finish-执行销毁捷奥影像exe-关闭窗体"
-        },
-        {
-          "level": 3,
-          "title": "base64encode --对字符串以Base64编码",
-          "slug": "base64encode-对字符串以base64编码"
-        },
-        {
-          "level": 3,
-          "title": "base64decode --解码Base64字符串",
-          "slug": "base64decode-解码base64字符串"
-        },
-        {
-          "level": 3,
-          "title": "bizCopy --批次拷贝",
-          "slug": "bizcopy-批次拷贝"
-        },
-        {
-          "level": 3,
-          "title": "extrafile --添加图片",
-          "slug": "extrafile-添加图片"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -3776,6 +4112,140 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
+      "title": "ab-plugin-embed-sunyard@前端内嵌信雅达影像控件",
+      "frontmatter": {},
+      "regularPath": "/Sdk/ab-plugin-embed-sunyard.html",
+      "relativePath": "Sdk/ab-plugin-embed-sunyard.md",
+      "key": "v-15fc8df8",
+      "path": "/Sdk/ab-plugin-embed-sunyard.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "sunYardInit --内嵌请求初始化",
+          "slug": "sunyardinit-内嵌请求初始化"
+        },
+        {
+          "level": 3,
+          "title": "sunYardFinish --关闭信雅达控件",
+          "slug": "sunyardfinish-关闭信雅达控件"
+        },
+        {
+          "level": 3,
+          "title": "sunYardActiveAbcShell --信雅达窗口置顶",
+          "slug": "sunyardactiveabcshell-信雅达窗口置顶"
+        },
+        {
+          "level": 3,
+          "title": "sunYardAddListener --启动信雅达控件主动发送报文的监听器",
+          "slug": "sunyardaddlistener-启动信雅达控件主动发送报文的监听器"
+        },
+        {
+          "level": 3,
+          "title": "sunYardCommOcxFunction -- 调用ocx控件提供的接口",
+          "slug": "sunyardcommocxfunction-调用ocx控件提供的接口"
+        },
+        {
+          "level": 3,
+          "title": "sunYardCreateSunScan --发送内嵌请求初始化:业务参数",
+          "slug": "sunyardcreatesunscan-发送内嵌请求初始化-业务参数"
+        },
+        {
+          "level": 3,
+          "title": "sunYardDeactiveAbcShell --取消窗口置顶",
+          "slug": "sunyarddeactiveabcshell-取消窗口置顶"
+        },
+        {
+          "level": 3,
+          "title": "sunYardFindSunYard --查询存活信雅达控件id",
+          "slug": "sunyardfindsunyard-查询存活信雅达控件id"
+        },
+        {
+          "level": 3,
+          "title": "sunYardRemoveListener -- 关闭信雅达控件主动发送报文的监听器",
+          "slug": "sunyardremovelistener-关闭信雅达控件主动发送报文的监听器"
+        },
+        {
+          "level": 3,
+          "title": "sunYardSetTimeout --设置信雅达控件进程的超时时间",
+          "slug": "sunyardsettimeout-设置信雅达控件进程的超时时间"
+        },
+        {
+          "level": 3,
+          "title": "sunYardShowSunScan --操作控件,主要动作为新增修改查询",
+          "slug": "sunyardshowsunscan-操作控件-主要动作为新增修改查询"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "ab-plugin-embed-scrcu-jieao@前端内嵌捷奥影像控件",
+      "frontmatter": {},
+      "regularPath": "/Sdk/ab-plugin-embed-scrcu-jieao.html",
+      "relativePath": "Sdk/ab-plugin-embed-scrcu-jieao.md",
+      "key": "v-95aa98b8",
+      "path": "/Sdk/ab-plugin-embed-scrcu-jieao.html",
+      "headers": [
+        {
+          "level": 2,
+          "title": "1.引入",
+          "slug": "_1-引入"
+        },
+        {
+          "level": 2,
+          "title": "2.使用",
+          "slug": "_2-使用"
+        },
+        {
+          "level": 3,
+          "title": "init --发送内嵌请求初始化",
+          "slug": "init-发送内嵌请求初始化"
+        },
+        {
+          "level": 3,
+          "title": "show --发送内嵌请求初始化显示界面，在init之后立刻执行",
+          "slug": "show-发送内嵌请求初始化显示界面-在init之后立刻执行"
+        },
+        {
+          "level": 3,
+          "title": "commit --提交",
+          "slug": "commit-提交"
+        },
+        {
+          "level": 3,
+          "title": "showImage --影像调阅",
+          "slug": "showimage-影像调阅"
+        },
+        {
+          "level": 3,
+          "title": "finish --执行销毁捷奥影像exe，关闭窗体",
+          "slug": "finish-执行销毁捷奥影像exe-关闭窗体"
+        },
+        {
+          "level": 3,
+          "title": "base64encode --对字符串以Base64编码",
+          "slug": "base64encode-对字符串以base64编码"
+        },
+        {
+          "level": 3,
+          "title": "base64decode --解码Base64字符串",
+          "slug": "base64decode-解码base64字符串"
+        },
+        {
+          "level": 3,
+          "title": "bizCopy --批次拷贝",
+          "slug": "bizcopy-批次拷贝"
+        },
+        {
+          "level": 3,
+          "title": "extrafile --添加图片",
+          "slug": "extrafile-添加图片"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
       "title": "ab-plugin-embed-xinwanjia@前端内嵌鑫万佳控件",
       "frontmatter": {},
       "regularPath": "/Sdk/ab-plugin-embed-xinwanjia.html",
@@ -3867,73 +4337,6 @@ export const siteData = {
           "level": 3,
           "title": "finish --验印模块销毁",
           "slug": "finish-验印模块销毁"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "ab-plugin-embed-sunyard@前端内嵌信雅达影像控件",
-      "frontmatter": {},
-      "regularPath": "/Sdk/ab-plugin-embed-sunyard.html",
-      "relativePath": "Sdk/ab-plugin-embed-sunyard.md",
-      "key": "v-15fc8df8",
-      "path": "/Sdk/ab-plugin-embed-sunyard.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "sunYardInit --内嵌请求初始化",
-          "slug": "sunyardinit-内嵌请求初始化"
-        },
-        {
-          "level": 3,
-          "title": "sunYardFinish --关闭信雅达控件",
-          "slug": "sunyardfinish-关闭信雅达控件"
-        },
-        {
-          "level": 3,
-          "title": "sunYardActiveAbcShell --信雅达窗口置顶",
-          "slug": "sunyardactiveabcshell-信雅达窗口置顶"
-        },
-        {
-          "level": 3,
-          "title": "sunYardAddListener --启动信雅达控件主动发送报文的监听器",
-          "slug": "sunyardaddlistener-启动信雅达控件主动发送报文的监听器"
-        },
-        {
-          "level": 3,
-          "title": "sunYardCommOcxFunction -- 调用ocx控件提供的接口",
-          "slug": "sunyardcommocxfunction-调用ocx控件提供的接口"
-        },
-        {
-          "level": 3,
-          "title": "sunYardCreateSunScan --发送内嵌请求初始化:业务参数",
-          "slug": "sunyardcreatesunscan-发送内嵌请求初始化-业务参数"
-        },
-        {
-          "level": 3,
-          "title": "sunYardDeactiveAbcShell --取消窗口置顶",
-          "slug": "sunyarddeactiveabcshell-取消窗口置顶"
-        },
-        {
-          "level": 3,
-          "title": "sunYardFindSunYard --查询存活信雅达控件id",
-          "slug": "sunyardfindsunyard-查询存活信雅达控件id"
-        },
-        {
-          "level": 3,
-          "title": "sunYardRemoveListener -- 关闭信雅达控件主动发送报文的监听器",
-          "slug": "sunyardremovelistener-关闭信雅达控件主动发送报文的监听器"
-        },
-        {
-          "level": 3,
-          "title": "sunYardSetTimeout --设置信雅达控件进程的超时时间",
-          "slug": "sunyardsettimeout-设置信雅达控件进程的超时时间"
-        },
-        {
-          "level": 3,
-          "title": "sunYardShowSunScan --操作控件,主要动作为新增修改查询",
-          "slug": "sunyardshowsunscan-操作控件-主要动作为新增修改查询"
         }
       ],
       "lastUpdated": "2022/4/15 下午5:07:24",
@@ -4256,6 +4659,122 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
+      "title": "ab-plugin-media 多媒体组件",
+      "frontmatter": {},
+      "regularPath": "/Sdk/ab-plugin-media.html",
+      "relativePath": "Sdk/ab-plugin-media.md",
+      "key": "v-1ff48f78",
+      "path": "/Sdk/ab-plugin-media.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "captureImage -- 拍照",
+          "slug": "captureimage-拍照"
+        },
+        {
+          "level": 3,
+          "title": "barcodeScan -- 二维码扫描识别",
+          "slug": "barcodescan-二维码扫描识别"
+        },
+        {
+          "level": 3,
+          "title": "barcodeEncode -- 生成二维码",
+          "slug": "barcodeencode-生成二维码"
+        },
+        {
+          "level": 3,
+          "title": "captureVideo -- 录制视频",
+          "slug": "capturevideo-录制视频"
+        },
+        {
+          "level": 3,
+          "title": "base64ToImage -- base64转图片",
+          "slug": "base64toimage-base64转图片"
+        },
+        {
+          "level": 3,
+          "title": "chooseImage -- 选择图片",
+          "slug": "chooseimage-选择图片"
+        },
+        {
+          "level": 3,
+          "title": "convertImg -- 图片格式转换",
+          "slug": "convertimg-图片格式转换"
+        },
+        {
+          "level": 3,
+          "title": "imageToBase64 -- 图片转base64",
+          "slug": "imagetobase64-图片转base64"
+        },
+        {
+          "level": 3,
+          "title": "scaleImage -- 图片缩放",
+          "slug": "scaleimage-图片缩放"
+        },
+        {
+          "level": 3,
+          "title": "cropImage -- 图片裁剪",
+          "slug": "cropimage-图片裁剪"
+        },
+        {
+          "level": 3,
+          "title": "synthesisIDCard -- 身份证合成",
+          "slug": "synthesisidcard-身份证合成"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "ab-plugin-liveness 活体检测插件",
+      "frontmatter": {},
+      "regularPath": "/Sdk/ab-plugin-liveness.html",
+      "relativePath": "Sdk/ab-plugin-liveness.md",
+      "key": "v-2c153204",
+      "path": "/Sdk/ab-plugin-liveness.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "init -- 开启活体检测.检测完毕后可自动关闭",
+          "slug": "init-开启活体检测-检测完毕后可自动关闭"
+        },
+        {
+          "level": 3,
+          "title": "remove -- 关闭活体检测",
+          "slug": "remove-关闭活体检测"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
+      "title": "ab-plugin-notificaiton 提醒模块",
+      "frontmatter": {},
+      "regularPath": "/Sdk/ab-plugin-notification.html",
+      "relativePath": "Sdk/ab-plugin-notification.md",
+      "key": "v-c8560698",
+      "path": "/Sdk/ab-plugin-notification.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "beep -- 设备响铃",
+          "slug": "beep-设备响铃"
+        },
+        {
+          "level": 3,
+          "title": "vibrate -- 设备震动",
+          "slug": "vibrate-设备震动"
+        },
+        {
+          "level": 3,
+          "title": "cancelVibration -- 取消震动",
+          "slug": "cancelvibration-取消震动"
+        }
+      ],
+      "lastUpdated": "2022/4/15 下午5:07:24",
+      "lastUpdatedTimestamp": 1650013644000
+    },
+    {
       "title": "ab-plugin-file@文件操作类",
       "frontmatter": {},
       "regularPath": "/Sdk/ab-plugin-file.html",
@@ -4373,28 +4892,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "ab-plugin-liveness 活体检测插件",
-      "frontmatter": {},
-      "regularPath": "/Sdk/ab-plugin-liveness.html",
-      "relativePath": "Sdk/ab-plugin-liveness.md",
-      "key": "v-2c153204",
-      "path": "/Sdk/ab-plugin-liveness.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "init -- 开启活体检测.检测完毕后可自动关闭",
-          "slug": "init-开启活体检测-检测完毕后可自动关闭"
-        },
-        {
-          "level": 3,
-          "title": "remove -- 关闭活体检测",
-          "slug": "remove-关闭活体检测"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
       "title": "ab-plugin-pinyin @拼音相关内容",
       "frontmatter": {},
       "regularPath": "/Sdk/ab-plugin-pinyin.html",
@@ -4412,100 +4909,6 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "ab-plugin-notificaiton 提醒模块",
-      "frontmatter": {},
-      "regularPath": "/Sdk/ab-plugin-notification.html",
-      "relativePath": "Sdk/ab-plugin-notification.md",
-      "key": "v-c8560698",
-      "path": "/Sdk/ab-plugin-notification.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "beep -- 设备响铃",
-          "slug": "beep-设备响铃"
-        },
-        {
-          "level": 3,
-          "title": "vibrate -- 设备震动",
-          "slug": "vibrate-设备震动"
-        },
-        {
-          "level": 3,
-          "title": "cancelVibration -- 取消震动",
-          "slug": "cancelvibration-取消震动"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
-      "title": "ab-plugin-media 多媒体组件",
-      "frontmatter": {},
-      "regularPath": "/Sdk/ab-plugin-media.html",
-      "relativePath": "Sdk/ab-plugin-media.md",
-      "key": "v-1ff48f78",
-      "path": "/Sdk/ab-plugin-media.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "captureImage -- 拍照",
-          "slug": "captureimage-拍照"
-        },
-        {
-          "level": 3,
-          "title": "barcodeScan -- 二维码扫描识别",
-          "slug": "barcodescan-二维码扫描识别"
-        },
-        {
-          "level": 3,
-          "title": "barcodeEncode -- 生成二维码",
-          "slug": "barcodeencode-生成二维码"
-        },
-        {
-          "level": 3,
-          "title": "captureVideo -- 录制视频",
-          "slug": "capturevideo-录制视频"
-        },
-        {
-          "level": 3,
-          "title": "base64ToImage -- base64转图片",
-          "slug": "base64toimage-base64转图片"
-        },
-        {
-          "level": 3,
-          "title": "chooseImage -- 选择图片",
-          "slug": "chooseimage-选择图片"
-        },
-        {
-          "level": 3,
-          "title": "convertImg -- 图片格式转换",
-          "slug": "convertimg-图片格式转换"
-        },
-        {
-          "level": 3,
-          "title": "imageToBase64 -- 图片转base64",
-          "slug": "imagetobase64-图片转base64"
-        },
-        {
-          "level": 3,
-          "title": "scaleImage -- 图片缩放",
-          "slug": "scaleimage-图片缩放"
-        },
-        {
-          "level": 3,
-          "title": "cropImage -- 图片裁剪",
-          "slug": "cropimage-图片裁剪"
-        },
-        {
-          "level": 3,
-          "title": "synthesisIDCard -- 身份证合成",
-          "slug": "synthesisidcard-身份证合成"
-        }
-      ],
-      "lastUpdated": "2022/4/15 下午5:07:24",
-      "lastUpdatedTimestamp": 1650013644000
-    },
-    {
       "title": "ab-plugin-peer@通讯组件",
       "frontmatter": {},
       "regularPath": "/Sdk/ab-plugin-peer.html",
@@ -4516,39 +4919,12 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "ab-plugin-vt@VT组件桥接器",
+      "title": "ab-plugin-trade@ab5内嵌ab3交易专属",
       "frontmatter": {},
-      "regularPath": "/Sdk/ab-plugin-vt.html",
-      "relativePath": "Sdk/ab-plugin-vt.md",
-      "key": "v-9f7bf564",
-      "path": "/Sdk/ab-plugin-vt.html",
-      "headers": [
-        {
-          "level": 3,
-          "title": "init --初始化",
-          "slug": "init-初始化"
-        },
-        {
-          "level": 3,
-          "title": "dispose --销毁",
-          "slug": "dispose-销毁"
-        },
-        {
-          "level": 3,
-          "title": "sendMessageTriggerByKeywords --根据屏幕关键字发送对应消息",
-          "slug": "sendmessagetriggerbykeywords-根据屏幕关键字发送对应消息"
-        },
-        {
-          "level": 3,
-          "title": "disconnect --与vt断开连接",
-          "slug": "disconnect-与vt断开连接"
-        },
-        {
-          "level": 3,
-          "title": "sendCommand --给vt发送指令",
-          "slug": "sendcommand-给vt发送指令"
-        }
-      ],
+      "regularPath": "/Sdk/ab-plugin-trade.html",
+      "relativePath": "Sdk/ab-plugin-trade.md",
+      "key": "v-aa9d2f78",
+      "path": "/Sdk/ab-plugin-trade.html",
       "lastUpdated": "2022/4/15 下午5:07:24",
       "lastUpdatedTimestamp": 1650013644000
     },
@@ -4687,12 +5063,39 @@ export const siteData = {
       "lastUpdatedTimestamp": 1650013644000
     },
     {
-      "title": "ab-plugin-trade@ab5内嵌ab3交易专属",
+      "title": "ab-plugin-vt@VT组件桥接器",
       "frontmatter": {},
-      "regularPath": "/Sdk/ab-plugin-trade.html",
-      "relativePath": "Sdk/ab-plugin-trade.md",
-      "key": "v-aa9d2f78",
-      "path": "/Sdk/ab-plugin-trade.html",
+      "regularPath": "/Sdk/ab-plugin-vt.html",
+      "relativePath": "Sdk/ab-plugin-vt.md",
+      "key": "v-9f7bf564",
+      "path": "/Sdk/ab-plugin-vt.html",
+      "headers": [
+        {
+          "level": 3,
+          "title": "init --初始化",
+          "slug": "init-初始化"
+        },
+        {
+          "level": 3,
+          "title": "dispose --销毁",
+          "slug": "dispose-销毁"
+        },
+        {
+          "level": 3,
+          "title": "sendMessageTriggerByKeywords --根据屏幕关键字发送对应消息",
+          "slug": "sendmessagetriggerbykeywords-根据屏幕关键字发送对应消息"
+        },
+        {
+          "level": 3,
+          "title": "disconnect --与vt断开连接",
+          "slug": "disconnect-与vt断开连接"
+        },
+        {
+          "level": 3,
+          "title": "sendCommand --给vt发送指令",
+          "slug": "sendcommand-给vt发送指令"
+        }
+      ],
       "lastUpdated": "2022/4/15 下午5:07:24",
       "lastUpdatedTimestamp": 1650013644000
     },
@@ -4813,6 +5216,14 @@ export const siteData = {
       {
         "text": "Sdk",
         "link": "/Sdk/"
+      },
+      {
+        "text": "Git",
+        "link": "/Git/"
+      },
+      {
+        "text": "Npm",
+        "link": "/Npm/"
       }
     ],
     "sidebar": {
@@ -4922,6 +5333,24 @@ export const siteData = {
             "/Sdk/ab-plugin-vt",
             "/Sdk/ab-plugin-window-message",
             "/Sdk/ab-plugin-window"
+          ]
+        }
+      ],
+      "/Git/": [
+        {
+          "title": "Git",
+          "collapsable": true,
+          "children": [
+            "/Git/git-guide"
+          ]
+        }
+      ],
+      "/Npm/": [
+        {
+          "title": "Npm",
+          "collapsable": true,
+          "children": [
+            "/Npm/internal-npm"
           ]
         }
       ]

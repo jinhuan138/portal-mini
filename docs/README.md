@@ -7,6 +7,7 @@ heroImageStyle: {
   margin: '20px',
 }
 heroText: null
+description: 'portal website'
 actionText: 快速上手 →
 actionLink: /Aui/
 ---
