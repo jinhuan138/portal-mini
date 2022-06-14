@@ -1,0 +1,18 @@
+// pp -> portal-pro
+.pp-button {
+    padding: .8rem 1.5rem;
+    border-radius: 4px;
+    background: #fff;
+    cursor: pointer;
+    border: 1px solid var(--border-color);
+    outline: none;
+
+    &:hover {
+        background: var(--dashboard-link-bg-hover);
+        color: #fff;
+    }
+
+    &:active {
+        opacity: .8;
+    }
+}

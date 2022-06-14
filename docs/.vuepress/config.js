@@ -16,7 +16,7 @@ module.exports = {
         lineNumbers: false
     },
     themeConfig: {
-        type: 'Home',
+        type: 'Home1',
         nav: require('./nav'),
         sidebar: require('./sidebar'),
         authorAvatar: '/logo.png',

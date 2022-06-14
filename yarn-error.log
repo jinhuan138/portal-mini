@@ -1,0 +1,64 @@
+Arguments: 
+  D:\node.js\node.exe C:\Users\ling\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add tslib@1.14.1
+
+PATH: 
+  D:\VMware\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-9.0.4\bin;C:\Program Files\Java\jdk-9.0.4\jre\bin;C:\Program Files\dotnet\;C:\Android;C:\Windows\System32;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;D:\gitXiaoWuGui\bin;E:\Git\cmd;D:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;D:\Program Files (x86)\PDFtk\bin\;C:\Program Files\Pandoc\;C:\Program Files\Calibre2\;D:\node.js\;C:\Users\ling\AppData\Local\Microsoft\WindowsApps;D:\apache-tomcat-7.0.94;D:\Microsoft VS Code\bin;D:\jdk1.8\bin;C:\Users\ling\go\bin;C:\Users\ling\AppData\Roaming\npm
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.16.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: connect ETIMEDOUT 192.9.180.42:30108
+      at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1146:16)
+
+npm manifest: 
+  {
+    "name": "portal",
+    "version": "1.0.2",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "docs:dev": "vuepress dev docs NODE_ENV=development --temp .temp",
+      "docs:build": "vuepress build docs NODE_ENV=production",
+      "aui": "gulp prepare",
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "@agree/aui-web": "^1.6.46-JiangNanNongShangCloudCreditAB5.7",
+      "@apollo/client": "^3.4.8",
+      "graphql": "^16.5.0",
+      "gulp": "^4.0.2",
+      "gulp-clean": "^0.4.0",
+      "gulp-header": "^2.0.9",
+      "gulp-if": "^3.0.0",
+      "gulp-rename": "^2.0.0",
+      "gulp-replace": "^1.1.3",
+      "less": "^4.1.2",
+      "sass": "^1.49.8",
+      "sass-loader": "^7.3.1",
+      "vuepress": "^1.9.7",
+      "tslib": "^1.14.1"
+    },
+    "devDependencies": {
+      "vuepress-plugin-demo-container-v2": "^2.3.4",
+      "vuepress-theme-reco": "^1.6.11"
+    },
+    "resolutions": {
+      "ts-invariant": "^0.5.0"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

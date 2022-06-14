@@ -47,7 +47,7 @@ npm publish --access public --registry http://192.9.180.42:30108/repository/ab-h
 
 点击👇按钮，下载私库内所有自研npm包最新版本的集合(.zip文件)。
 
-<package-download></package-download>
+<!-- <package-download></package-download> -->
 
 ## 如何将私库包发布到其他仓库
 

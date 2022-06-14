@@ -84,13 +84,13 @@ npm config set registry http://192.9.180.42:30108/repository/ab-group/
 
 在`创建需求`（`创建缺陷`）的页面内，需在标题内注明对应的`【市场名称/解决方案】`，以及简要的问题描述。内容区应该按照规范示例详细内容。
 
-<img src="/images/faq/tapd-demand02.png" width="800"/>
+<img src="/portal/images/faq/tapd-demand02.png" width="800"/>
 
 ### 必填项
 
 在`创建需求`（`创建缺陷`）的页面内，需注意右侧带红色`*`标为必填项，例：需求分类、迭代、优先级、处理人等。
 
-<img src="/images/faq/tapd-demand03.png" width="1000"/>
+<img src="/portal/images/faq/tapd-demand03.png" width="1000"/>
 
 ### 附件
 
@@ -100,15 +100,15 @@ npm config set registry http://192.9.180.42:30108/repository/ab-group/
 
 **例1**
 
-<img src="/images/faq/tapd-demand04.png" width="1000"/>
+<img src="/portal/images/faq/tapd-demand04.png" width="1000"/>
 
 **例2**
 
-<img src="/images/faq/tapd-demand05.png" width="1000"/>
+<img src="/portal/images/faq/tapd-demand05.png" width="1000"/>
 
 **例3**
 
-<img src="/images/faq/tapd-demand06.png" width="800"/>
+<img src="/portal/images/faq/tapd-demand06.png" width="800"/>
 
 ## 5.如何处理Tapd需求和缺陷
 
@@ -139,11 +139,11 @@ npm config set registry http://192.9.180.42:30108/repository/ab-group/
 
 ### 图示
 
-<img src="/images/faq/tapd-dev.png" width="1000"/>
+<img src="/portal/images/faq/tapd-dev.png" width="1000"/>
 
 ### 图例
 
-<img src="/images/faq/tapd-dev02.png" width="800"/>
+<img src="/portal/images/faq/tapd-dev02.png" width="800"/>
 
 ## 6.如何查看当前使用的npm包版本
 
@@ -156,7 +156,7 @@ npm config set registry http://192.9.180.42:30108/repository/ab-group/
 
 下面以`@agree/ab-core`包为例：
 
-<img src="/images/faq/find-in-nodemodules.jpg" width="600"/>
+<img src="/portal/images/faq/find-in-nodemodules.jpg" width="600"/>
 
 ## 7.node-sass向dart-sass 迁移
 
