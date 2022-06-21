@@ -1,0 +1,65 @@
+[
+    {
+      "id": 1,
+      "roleName": "管理员",
+      "depts": [],
+      "__typename": "RoleWidthDeptModel"
+    },
+    {
+      "id": 2,
+      "roleName": "普通人员",
+      "depts": [],
+      "__typename": "RoleWidthDeptModel"
+    },
+    {
+      "id": 3,
+      "roleName": "北研",
+      "depts": [
+        326
+      ],
+      "__typename": "RoleWidthDeptModel"
+    },
+    {
+      "id": 4,
+      "roleName": "南研",
+      "depts": [
+        329
+      ],
+      "__typename": "RoleWidthDeptModel"
+    },
+    {
+      "id": 5,
+      "roleName": "管理办公室",
+      "depts": [
+        183
+      ],
+      "__typename": "RoleWidthDeptModel"
+    },
+    {
+      "id": 6,
+      "roleName": "创新事业部",
+      "depts": [
+        627
+      ],
+      "__typename": "RoleWidthDeptModel"
+    },
+    {
+      "id": 7,
+      "roleName": "渠道业务事业部",
+      "depts": [
+        569
+      ],
+      "__typename": "RoleWidthDeptModel"
+    },
+    {
+      "id": 8,
+      "roleName": "交付",
+      "depts": [
+        565,
+        555,
+        579,
+        576
+      ],
+      "__typename": "RoleWidthDeptModel"
+    }
+  ]

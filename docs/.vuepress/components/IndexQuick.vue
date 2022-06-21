@@ -5,22 +5,14 @@
       {{ description }}
     </p>
     <ul class="quick-entry-content">
-      <li
-        class="quick-entry__item"
-        v-for="(externalLink, i) in externalLinkInfoList"
-        :key="i"
-      >
-        <a
-          class="quick-entry__item--link text-decoration-none"
-          href="javascript:void(0)"
-          @click="enterItem(externalLink.url)"
-          rel="noopener noreferrer"
-        >
+      <div class="quick-entry__item" v-for="(externalLink, i) in externalLinkInfoList" :key="i">
+        <a class="quick-entry__item--link text-decoration-none" href="javascript:void(0)"
+          @click="enterItem(externalLink.url)" rel="noopener noreferrer">
           <!-- <span class="quick-entry__item--mark"></span> -->
           <h3 class="section-item-title-size">{{ externalLink.title }}</h3>
           <!-- <p>{{ externalLink.des }}</p> -->
         </a>
-      </li>
+      </div>
     </ul>
   </div>
 </template>
@@ -93,7 +85,7 @@ export default {
   padding: 10px;
   border-radius: 30px;
   background: #fff;
-  box-shadow: 8px 8px 5px -2px var(--main-shadow);
+  box-shadow: 8px 8px 5px -2px #ebeef5;
 
   .quick-entry__item {
     width: 20%;
@@ -110,7 +102,7 @@ export default {
         height: 20px;
         margin-right: 15%;
         border-radius: 50%;
-        background: var(--mark-color);
+        background: #37c8cb;
       }
 
       &::before {
@@ -119,7 +111,7 @@ export default {
       }
 
       &:hover {
-        background: var(--quick-bg-hover);
+        background: #d2f1f8;
         border-radius: 20px;
       }
     }

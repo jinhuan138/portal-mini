@@ -1,0 +1,848 @@
+[
+  {
+    "id": 1,
+    "roleName": "管理员",
+    "authority": [
+      {
+        "__typename": "Relevance",
+        "id": 45,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 2,
+          "authorityName": "前端开发规范"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 66,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 10,
+          "authorityName": "上传文件"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 68,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 3,
+          "authorityName": "JS SDK"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 69,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 4,
+          "authorityName": "移动开发统一门户"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 70,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 5,
+          "authorityName": "微前端"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 71,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 6,
+          "authorityName": "ESLint"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 72,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 7,
+          "authorityName": "git规范及说明"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 73,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 8,
+          "authorityName": "私库使用指南"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 79,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 12,
+          "authorityName": "更新已发布代码库"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 80,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 13,
+          "authorityName": "自助文档"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 82,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 1,
+          "authorityName": "组件库"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 83,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 9,
+          "authorityName": "知识库"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 84,
+        "role": {
+          "__typename": "Role",
+          "id": 1,
+          "roleName": "管理员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 11,
+          "authorityName": "权限配置"
+        }
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "roleName": "普通人员",
+    "authority": [
+      {
+        "__typename": "Relevance",
+        "id": 48,
+        "role": {
+          "__typename": "Role",
+          "id": 2,
+          "roleName": "普通人员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 5,
+          "authorityName": "微前端"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 61,
+        "role": {
+          "__typename": "Role",
+          "id": 2,
+          "roleName": "普通人员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 2,
+          "authorityName": "前端开发规范"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 74,
+        "role": {
+          "__typename": "Role",
+          "id": 2,
+          "roleName": "普通人员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 4,
+          "authorityName": "移动开发统一门户"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 75,
+        "role": {
+          "__typename": "Role",
+          "id": 2,
+          "roleName": "普通人员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 7,
+          "authorityName": "git规范及说明"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 76,
+        "role": {
+          "__typename": "Role",
+          "id": 2,
+          "roleName": "普通人员"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 8,
+          "authorityName": "私库使用指南"
+        }
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "roleName": "北研",
+    "authority": [
+      {
+        "__typename": "Relevance",
+        "id": 85,
+        "role": {
+          "__typename": "Role",
+          "id": 3,
+          "roleName": "北研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 1,
+          "authorityName": "组件库"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 86,
+        "role": {
+          "__typename": "Role",
+          "id": 3,
+          "roleName": "北研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 2,
+          "authorityName": "前端开发规范"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 87,
+        "role": {
+          "__typename": "Role",
+          "id": 3,
+          "roleName": "北研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 3,
+          "authorityName": "JS SDK"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 88,
+        "role": {
+          "__typename": "Role",
+          "id": 3,
+          "roleName": "北研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 4,
+          "authorityName": "移动开发统一门户"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 89,
+        "role": {
+          "__typename": "Role",
+          "id": 3,
+          "roleName": "北研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 5,
+          "authorityName": "微前端"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 90,
+        "role": {
+          "__typename": "Role",
+          "id": 3,
+          "roleName": "北研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 7,
+          "authorityName": "git规范及说明"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 91,
+        "role": {
+          "__typename": "Role",
+          "id": 3,
+          "roleName": "北研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 8,
+          "authorityName": "私库使用指南"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 93,
+        "role": {
+          "__typename": "Role",
+          "id": 3,
+          "roleName": "北研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 13,
+          "authorityName": "自助文档"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 118,
+        "role": {
+          "__typename": "Role",
+          "id": 3,
+          "roleName": "北研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 9,
+          "authorityName": "知识库"
+        }
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "roleName": "南研",
+    "authority": [
+      {
+        "__typename": "Relevance",
+        "id": 103,
+        "role": {
+          "__typename": "Role",
+          "id": 4,
+          "roleName": "南研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 2,
+          "authorityName": "前端开发规范"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 104,
+        "role": {
+          "__typename": "Role",
+          "id": 4,
+          "roleName": "南研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 4,
+          "authorityName": "移动开发统一门户"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 105,
+        "role": {
+          "__typename": "Role",
+          "id": 4,
+          "roleName": "南研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 5,
+          "authorityName": "微前端"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 106,
+        "role": {
+          "__typename": "Role",
+          "id": 4,
+          "roleName": "南研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 7,
+          "authorityName": "git规范及说明"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 107,
+        "role": {
+          "__typename": "Role",
+          "id": 4,
+          "roleName": "南研"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 8,
+          "authorityName": "私库使用指南"
+        }
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "roleName": "管理办公室",
+    "authority": [
+      {
+        "__typename": "Relevance",
+        "id": 108,
+        "role": {
+          "__typename": "Role",
+          "id": 5,
+          "roleName": "管理办公室"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 2,
+          "authorityName": "前端开发规范"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 109,
+        "role": {
+          "__typename": "Role",
+          "id": 5,
+          "roleName": "管理办公室"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 4,
+          "authorityName": "移动开发统一门户"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 110,
+        "role": {
+          "__typename": "Role",
+          "id": 5,
+          "roleName": "管理办公室"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 5,
+          "authorityName": "微前端"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 111,
+        "role": {
+          "__typename": "Role",
+          "id": 5,
+          "roleName": "管理办公室"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 7,
+          "authorityName": "git规范及说明"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 112,
+        "role": {
+          "__typename": "Role",
+          "id": 5,
+          "roleName": "管理办公室"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 8,
+          "authorityName": "私库使用指南"
+        }
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "roleName": "创新事业部",
+    "authority": [
+      {
+        "__typename": "Relevance",
+        "id": 113,
+        "role": {
+          "__typename": "Role",
+          "id": 6,
+          "roleName": "创新事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 2,
+          "authorityName": "前端开发规范"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 114,
+        "role": {
+          "__typename": "Role",
+          "id": 6,
+          "roleName": "创新事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 4,
+          "authorityName": "移动开发统一门户"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 115,
+        "role": {
+          "__typename": "Role",
+          "id": 6,
+          "roleName": "创新事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 5,
+          "authorityName": "微前端"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 116,
+        "role": {
+          "__typename": "Role",
+          "id": 6,
+          "roleName": "创新事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 7,
+          "authorityName": "git规范及说明"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 117,
+        "role": {
+          "__typename": "Role",
+          "id": 6,
+          "roleName": "创新事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 8,
+          "authorityName": "私库使用指南"
+        }
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "roleName": "渠道业务事业部",
+    "authority": [
+      {
+        "__typename": "Relevance",
+        "id": 94,
+        "role": {
+          "__typename": "Role",
+          "id": 7,
+          "roleName": "渠道业务事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 1,
+          "authorityName": "组件库"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 95,
+        "role": {
+          "__typename": "Role",
+          "id": 7,
+          "roleName": "渠道业务事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 2,
+          "authorityName": "前端开发规范"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 96,
+        "role": {
+          "__typename": "Role",
+          "id": 7,
+          "roleName": "渠道业务事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 3,
+          "authorityName": "JS SDK"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 97,
+        "role": {
+          "__typename": "Role",
+          "id": 7,
+          "roleName": "渠道业务事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 4,
+          "authorityName": "移动开发统一门户"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 98,
+        "role": {
+          "__typename": "Role",
+          "id": 7,
+          "roleName": "渠道业务事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 5,
+          "authorityName": "微前端"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 100,
+        "role": {
+          "__typename": "Role",
+          "id": 7,
+          "roleName": "渠道业务事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 8,
+          "authorityName": "私库使用指南"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 102,
+        "role": {
+          "__typename": "Role",
+          "id": 7,
+          "roleName": "渠道业务事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 13,
+          "authorityName": "自助文档"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 119,
+        "role": {
+          "__typename": "Role",
+          "id": 7,
+          "roleName": "渠道业务事业部"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 9,
+          "authorityName": "知识库"
+        }
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "roleName": "交付",
+    "authority": [
+      {
+        "__typename": "Relevance",
+        "id": 120,
+        "role": {
+          "__typename": "Role",
+          "id": 8,
+          "roleName": "交付"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 1,
+          "authorityName": "组件库"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 121,
+        "role": {
+          "__typename": "Role",
+          "id": 8,
+          "roleName": "交付"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 3,
+          "authorityName": "JS SDK"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 122,
+        "role": {
+          "__typename": "Role",
+          "id": 8,
+          "roleName": "交付"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 4,
+          "authorityName": "移动开发统一门户"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 123,
+        "role": {
+          "__typename": "Role",
+          "id": 8,
+          "roleName": "交付"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 5,
+          "authorityName": "微前端"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 124,
+        "role": {
+          "__typename": "Role",
+          "id": 8,
+          "roleName": "交付"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 8,
+          "authorityName": "私库使用指南"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 125,
+        "role": {
+          "__typename": "Role",
+          "id": 8,
+          "roleName": "交付"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 9,
+          "authorityName": "知识库"
+        }
+      },
+      {
+        "__typename": "Relevance",
+        "id": 126,
+        "role": {
+          "__typename": "Role",
+          "id": 8,
+          "roleName": "交付"
+        },
+        "authority": {
+          "__typename": "Authority",
+          "id": 13,
+          "authorityName": "自助文档"
+        }
+      }
+    ]
+  }
+]

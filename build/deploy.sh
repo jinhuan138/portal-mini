@@ -14,11 +14,6 @@ git init
 git add .
 git commit -m 'deploy'
 
-# 如果发布到 https://<USERNAME>.github.io/<REPO>
-cd dist
-git init
-git add .
-git commit -m 'deploy'
 git push -f git@github.com:jinhuan138/portal.git master:master
 
 cd -

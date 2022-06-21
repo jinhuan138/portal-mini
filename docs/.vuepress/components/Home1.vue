@@ -12,15 +12,9 @@
           <img src="/portal/banner.png" />
         </div>
       </div>
-      <index-dashboard
-        title="文档中心"
-        description="快速了解产品相关网站及开发文档，编码规范等"
-      ></index-dashboard>
+      <index-dashboard title="文档中心" description="快速了解产品相关网站及开发文档，编码规范等"></index-dashboard>
 
-      <index-quick
-        title="快捷方式"
-        description="快速进入代码仓库、OA、Tapd地址链接"
-      ></index-quick>
+      <index-quick title="快捷方式" description="快速进入代码仓库、OA、Tapd地址链接"></index-quick>
 
       <h1 class="section-title-size">更多功能</h1>
       <p class="section-des-size description-color">建设中...</p>
@@ -34,26 +28,25 @@ export default {
 };
 </script>
 
-<style lang='scss' scoped>
-@import "../styles/index.scss";
+<style lang='scss' scope>
 .main {
   max-width: 75%;
   margin: 0 auto;
   padding-bottom: 40px;
 
   .banner-title {
-    color: var(--banner-title-color);
+    color:#132b50;
   }
 
   .team-banner {
     display: flex;
     flex-wrap: wrap;
 
-    & > .team-banner-item {
+    &>.team-banner-item {
       width: 50%;
     }
 
-    .team-banner-img > img {
+    .team-banner-img>img {
       width: 100%;
     }
   }
@@ -64,6 +57,7 @@ export default {
     min-width: 90%;
   }
 }
+
 @media screen and (max-width: 768px) {
   .main .team-banner {
     position: relative;
@@ -82,12 +76,12 @@ export default {
         height: 100%;
         position: absolute;
         z-index: 1;
-        background: var(--main-bg-color);
+        background: #fafbfe;
         filter: opacity(30%);
       }
     }
 
-    & > .team-banner-item {
+    &>.team-banner-item {
       width: 100%;
     }
   }
@@ -97,5 +91,85 @@ export default {
   .team-banner .team-banner-img::before {
     filter: opacity(60%);
   }
+}
+@media screen and (min-width: 1200px) {
+    .banner-title-size {
+        font-size: 2.25rem;
+    }
+    .banner-des-size {
+        font-size: 1.5rem;
+    }
+    .section-title-size {
+      font-size: 2rem;
+    }
+    .section-des-size {
+      font-size: 1.25rem;
+    }
+    .section-item-title-size {
+        font-size: 1.5rem;
+    }
+    .section-item-des-size {
+        font-size: 1rem;
+    }
+}
+@media screen and (max-width: 1200px) {
+    .banner-title-size {
+        font-size: 2rem;
+    }
+    .banner-des-size {
+        font-size: 1.33rem;
+    }
+    .section-title-size {
+      font-size: 1.78rem;
+    }
+    .section-des-size {
+      font-size: 1.11rem;
+    }
+    .section-item-title-size {
+        font-size: 1.33rem;
+    }
+    .section-item-des-size {
+        font-size: 0.89rem;
+    }
+}
+@media screen and (max-width: 768px) {
+    .banner-title-size {
+        font-size: 1.88rem;
+    }
+    .banner-des-size {
+        font-size: 1.25rem;
+    }
+    .section-title-size {
+      font-size: 1.67rem;
+    }
+    .section-des-size {
+      font-size: 1.04rem;
+    }
+    .section-item-title-size {
+        font-size: 1.25rem;
+    }
+    .section-item-des-size {
+        font-size: 0.83rem;
+    }
+}
+@media screen and (max-width: 468px) {
+    .banner-title-size {
+        font-size: 1.5rem;
+    }
+    .banner-des-size {
+        font-size: 1rem;
+    }
+    .section-title-size {
+      font-size: 1.33rem;
+    }
+    .section-des-size {
+      font-size: 0.83rem;
+    }
+    .section-item-title-size {
+        font-size: 1rem;
+    }
+    .section-item-des-size {
+        font-size: 0.67rem;
+    }
 }
 </style>

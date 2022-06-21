@@ -1,0 +1,67 @@
+[
+    {
+      "id": 1,
+      "authorityName": "组件库",
+      "__typename": "Authority"
+    },
+    {
+      "id": 2,
+      "authorityName": "前端开发规范",
+      "__typename": "Authority"
+    },
+    {
+      "id": 3,
+      "authorityName": "JS SDK",
+      "__typename": "Authority"
+    },
+    {
+      "id": 4,
+      "authorityName": "移动开发统一门户",
+      "__typename": "Authority"
+    },
+    {
+      "id": 5,
+      "authorityName": "微前端",
+      "__typename": "Authority"
+    },
+    {
+      "id": 6,
+      "authorityName": "ESLint",
+      "__typename": "Authority"
+    },
+    {
+      "id": 7,
+      "authorityName": "git规范及说明",
+      "__typename": "Authority"
+    },
+    {
+      "id": 8,
+      "authorityName": "私库使用指南",
+      "__typename": "Authority"
+    },
+    {
+      "id": 9,
+      "authorityName": "知识库",
+      "__typename": "Authority"
+    },
+    {
+      "id": 10,
+      "authorityName": "上传文件",
+      "__typename": "Authority"
+    },
+    {
+      "id": 11,
+      "authorityName": "权限配置",
+      "__typename": "Authority"
+    },
+    {
+      "id": 12,
+      "authorityName": "更新已发布代码库",
+      "__typename": "Authority"
+    },
+    {
+      "id": 13,
+      "authorityName": "自助文档",
+      "__typename": "Authority"
+    }
+  ]

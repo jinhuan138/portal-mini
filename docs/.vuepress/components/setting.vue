@@ -1,103 +1,113 @@
 <template>
-  <div>
-    <!-- 用户管理 -->
-    <aui-card class="box-card card-style">
-      <div slot="header" class="clearfix">
-        <h1 class="card-title">01.用户管理</h1>
-      </div>
-      <div slot="default" class="card-content">
-        <p class="card-content-title">
-          <span>用户查询</span>
-        </p>
-        <div style="display: flex">
-          <aui-input
-            v-model="userName"
-            label="用户名"
-            placeholder="请输入要查询的用户名"
-          ></aui-input>
-          <aui-select
-            label="角色"
-            :options="roleOptions"
-            v-model="role"
-            placeholder="请选择要查询的角色"
-          >
-          </aui-select>
-          <aui-button style="margin-left: 60px" @click="filterUser">
-            <i class="aui-icon-search"></i>查询</aui-button
-          >
-          <aui-button @click="cancelFilter">
-            <i class="aui-icon-refresh"></i>
-            重置</aui-button
-          >
+  <client-only>
+    <div>
+      <!-- 用户管理 -->
+      <aui-card class="box-card card-style">
+        <div slot="header" class="clearfix">
+          <h1 class="card-title">01.用户管理</h1>
         </div>
-        <!-- 表格 -->
-        <aui-table
-          class="table"
-          :head-data="headData"
-          :data="tableData"
-          :isEdit="false"
-          width="10"
-          pagingType="complex"
-          text-align="center"
-        ></aui-table>
-        <!-- 分页 -->
-        <div style="">
-          <aui-pagination
-            layout="prev, pager, next"
-            :total="filterTableData.length"
-            :current-page="page"
-            class="pag"
-            @current-change="currentChange"
-          >
-          </aui-pagination>
-        </div>
-      </div>
-    </aui-card>
-    <!-- 角色管理 -->
-    <aui-card class="box-card card-style">
-      <div slot="header" class="clearfix">
-        <h1 class="card-title">02.角色管理</h1>
-      </div>
-      <div slot="default" class="card-content">
-        <p class="card-tip">
-          以下为各角色对应的权限，可进行新增以及删除权限修改。
-        </p>
-        <div v-for="(item, index) in roleAuthority" :key="index">
+        <div slot="default" class="card-content">
           <p class="card-content-title">
-            <span>{{ item.roleName }}</span>
+            <span>用户查询</span>
           </p>
-          <aui-tag
-            class="tag"
-            v-for="(item, index) in item.authority"
-            :background-color="item.authority.id | color"
-            :key="index"
-            >{{ item.authority.authorityName }}</aui-tag
-          >
+          <div style="display: flex">
+            <aui-input
+              v-model="userName"
+              label="用户名"
+              placeholder="请输入要查询的用户名"
+              @keydown.enter.native="filterUser"
+            ></aui-input>
+            <aui-select
+              label="角色"
+              :options="roleOptions"
+              v-model="role"
+              clearable
+              @keydown.enter.native="filterUser"
+              placeholder="请选择要查询的角色"
+            >
+            </aui-select>
+            <aui-button style="margin-left: 60px" @click="filterUser">
+              <i class="aui-icon-search"></i>查询</aui-button
+            >
+            <aui-button @click="cancelFilter">
+              <i class="aui-icon-refresh"></i>
+              重置</aui-button
+            >
+          </div>
+          <!-- 表格 -->
+          <aui-table
+            class="table"
+            :head-data="headData"
+            :data="tableData"
+            :isEdit="false"
+            width="10"
+            pagingType="complex"
+            text-align="center"
+          ></aui-table>
+          <!-- 分页 -->
+          <div class="pag">
+            <aui-pagination
+              layout="prev, pager, next"
+              :total="filterTableData.length"
+              :current-page="page"
+              @current-change="currentChange"
+            >
+            </aui-pagination>
+          </div>
         </div>
-      </div>
-    </aui-card>
-    <!-- 权限管理 -->
-    <aui-card class="box-card card-style">
-      <div slot="header" class="clearfix">
-        <h1 class="card-title">03.权限管理</h1>
-      </div>
-      <div slot="default" class="card-content">
-        <p class="card-tip">以下为全部现有权限，可进行新增以及删除权限修改。</p>
-        <div>
-          <aui-tag
-            class="tag"
-            v-for="(item, index) in authorityList"
-            :key="index"
-            :background-color="item.id | color"
-            >{{ item.authorityName }}</aui-tag
-          >
+      </aui-card>
+      <!-- 角色管理 -->
+      <aui-card class="box-card card-style">
+        <div slot="header" class="clearfix">
+          <h1 class="card-title">02.角色管理</h1>
         </div>
-      </div>
-    </aui-card>
-  </div>
+        <div slot="default" class="card-content">
+          <p class="card-tip">
+            以下为各角色对应的权限，可进行新增以及删除权限修改。
+          </p>
+          <div v-for="(item, index) in roleAuthority" :key="index">
+            <p class="card-content-title">
+              <span>{{ item.roleName }}</span>
+            </p>
+            <aui-tag
+              class="tag"
+              v-for="(item, index) in item.authority"
+              :background-color="item.authority.id | color"
+              :key="index"
+              >{{ item.authority.authorityName }}</aui-tag
+            >
+          </div>
+        </div>
+      </aui-card>
+      <!-- 权限管理 -->
+      <aui-card class="box-card card-style">
+        <div slot="header" class="clearfix">
+          <h1 class="card-title">03.权限管理</h1>
+        </div>
+        <div slot="default" class="card-content">
+          <p class="card-tip">
+            以下为全部现有权限，可进行新增以及删除权限修改。
+          </p>
+          <div>
+            <aui-tag
+              class="tag"
+              v-for="(item, index) in authorityList"
+              :key="index"
+              :background-color="item.id | color"
+              >{{ item.authorityName }}</aui-tag
+            >
+          </div>
+        </div>
+      </aui-card>
+    </div>
+  </client-only>
 </template>
 
 <script>
+import authority from "../DB/findAuthority.json";
+import roleAll from "../DB/findRoleAll.json";
+import allUser from "../DB/getAllUser.json";
+import authorityAll from "../DB/findAuthorityAll.json";
 import { gql } from "@apollo/client";
 const tagColor = {
   3: "rgba(64,158,255,.1)", //default
@@ -114,6 +124,7 @@ const tagColor = {
   12: "skyblue",
 };
 export default {
+  name:"Setting",
   data() {
     return {
       userName: "",
@@ -148,16 +159,7 @@ export default {
       ],
       page: 1,
       authority: [],
-      originTableData: [
-        // {
-        //   id: 19,
-        //   name: "代强-A5524",
-        //   userId: "A5524",
-        //   roleName: "管理员",
-        //   statusType: "开启",
-        //   role: { id: 1, roleName: "管理员", __typename: "Role" },
-        // },
-      ], //所有用户
+      originTableData: [], //所有用户
       tableData: [],
       filterTableData: [],
       roleAuthority: [], //角色对应权限
@@ -170,10 +172,11 @@ export default {
     },
   },
   async mounted() {
-    await this.getRole();
-    this.getRoleAuthority();
-    this.findAuthorityAll()
-    this.getUserList();
+    // await this.getRole();
+    // this.getRoleAuthority();
+    // this.findAuthorityAll();
+    // this.getUserList();
+    this.initDB();
   },
   methods: {
     //获取角色
@@ -201,7 +204,10 @@ export default {
     },
     //查询
     filterUser() {
-      if (!this.role && !this.userName) return this.cancelFilter();
+      if (!this.role && !this.userName) {
+        this.cancelFilter();
+        return;
+      }
       let filterTable = [];
       if (this.role) {
         filterTable = this.originTableData.filter(
@@ -298,6 +304,7 @@ export default {
         const element = this.roleOptions[i];
         await this.findAuthority(element);
       }
+      console.log(this.roleAuthority);
     },
     //所有权限
     async findAuthorityAll() {
@@ -317,6 +324,31 @@ export default {
     },
     currentChange(page) {
       this.tableData = this.filterTableData.slice(8 * (page - 1), 8 * page); //0-8 8-16 16-24
+    },
+    initDB() {
+      roleAll.forEach((item) => {
+        const obj = {
+          value: item.id,
+          label: item.roleName,
+        };
+        this.roleOptions.push(obj);
+      });
+      allUser.forEach((item) => {
+        const { id, name, userId, role, status } = item;
+        const person = {
+          id,
+          name,
+          userId,
+          roleName: role.roleName,
+          roleId: role.id,
+          statusType: status.statusType,
+        };
+        this.originTableData.push(person);
+      });
+      this.filterTableData = this.originTableData;
+      this.tableData = this.filterTableData.slice(0, 8);
+      this.authorityList = authorityAll;
+      this.roleAuthority = authority;
     },
   },
 };
@@ -387,6 +419,11 @@ export default {
   text-align: center;
 }
 .pag {
-  margin: 5 auto 0 !important;
+  width: 25rem;
+  margin-top: 0.5rem;
+  .aui-pagination {
+    // margin: 0 auto;
+    margin-left: 35rem !important;
+  }
 }
 </style>

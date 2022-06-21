@@ -1,0 +1,2210 @@
+[
+    {
+      "id": 19,
+      "name": "代强-A5524",
+      "userId": "A5524",
+      "role": {
+        "id": 1,
+        "roleName": "管理员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 28,
+      "name": "徐涛-A8748",
+      "userId": "A8748",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 29,
+      "name": "裴蓉-A15033",
+      "userId": "A15033",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 30,
+      "name": "程波涛-A6616",
+      "userId": "A6616",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 31,
+      "name": "路程-A4061",
+      "userId": "A4061",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 32,
+      "name": "彭成浩-A4813",
+      "userId": "A4813",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 33,
+      "name": "冯雨佳-A12132",
+      "userId": "A12132",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 34,
+      "name": "李玉科-A16406",
+      "userId": "A16406",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 35,
+      "name": "哈万东-A4429",
+      "userId": "A4429",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 36,
+      "name": "魏天鹏-A0940",
+      "userId": "A0940",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 37,
+      "name": "陈桂水-A15571",
+      "userId": "A15571",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 38,
+      "name": "岳武-A3651",
+      "userId": "A3651",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 39,
+      "name": "向巧思-A13589",
+      "userId": "A13589",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 40,
+      "name": "王存宇-A15214",
+      "userId": "A15214",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 41,
+      "name": "赵志成-A8068",
+      "userId": "A8068",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 42,
+      "name": "邓克刚-A10695",
+      "userId": "A10695",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 43,
+      "name": "梁进-A10592",
+      "userId": "A10592",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 44,
+      "name": "游客_0001",
+      "userId": "vk_0001",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 45,
+      "name": "任建名-A8793",
+      "userId": "A8793",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 46,
+      "name": "黄冠-A2993",
+      "userId": "A2993",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 47,
+      "name": "林胜威-A16558",
+      "userId": "A16558",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 48,
+      "name": "朱玉生-A0800",
+      "userId": "A0800",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 49,
+      "name": "刘亚强-A4812",
+      "userId": "A4812",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 50,
+      "name": "赵姣龙-A7769",
+      "userId": "A7769",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 51,
+      "name": "王翕-A16663",
+      "userId": "A16663",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 52,
+      "name": "王科达-A16405",
+      "userId": "A16405",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 53,
+      "name": "何峰-A7637",
+      "userId": "A7637",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 54,
+      "name": "李建-A16725",
+      "userId": "A16725",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 55,
+      "name": "刘敬云-A2423",
+      "userId": "A2423",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 56,
+      "name": "杨磊-A7087",
+      "userId": "A7087",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 57,
+      "name": "周子荃-A14988",
+      "userId": "A14988",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 58,
+      "name": "黄成杰-A4057",
+      "userId": "A4057",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 59,
+      "name": "秦嘉明-A10458",
+      "userId": "A10458",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 60,
+      "name": "张岳-A4045",
+      "userId": "A4045",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 61,
+      "name": "郭用宣-A7302",
+      "userId": "A7302",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 62,
+      "name": "韩伯威-A16649",
+      "userId": "A16649",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 63,
+      "name": "李晓楠-A12687",
+      "userId": "A12687",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 64,
+      "name": "谢渊-A4563",
+      "userId": "A4563",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 65,
+      "name": "张跃-A8365",
+      "userId": "A8365",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 66,
+      "name": "尹宏伟-A10713",
+      "userId": "A10713",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 67,
+      "name": "余成华-A16783",
+      "userId": "A16783",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 68,
+      "name": "江显水-A1137",
+      "userId": "A1137",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 69,
+      "name": "刘安云-A14833",
+      "userId": "A14833",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 70,
+      "name": "杨帆-A16726",
+      "userId": "A16726",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 71,
+      "name": "姚绍伟-A16764",
+      "userId": "A16764",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 72,
+      "name": "夏宇晨-A4048",
+      "userId": "A4048",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 73,
+      "name": "周文斌-A7449",
+      "userId": "A7449",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 74,
+      "name": "王怡媛-A3936",
+      "userId": "A3936",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 75,
+      "name": "蒙立广-A15248",
+      "userId": "A15248",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 76,
+      "name": "高新愿-A4616",
+      "userId": "A4616",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 77,
+      "name": "魏忠-A3820",
+      "userId": "A3820",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 78,
+      "name": "桂院军-A3234",
+      "userId": "A3234",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 79,
+      "name": "张之强-A16332",
+      "userId": "A16332",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 80,
+      "name": "邹积玥-A14810",
+      "userId": "A14810",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 81,
+      "name": "许美霞-A3062",
+      "userId": "A3062",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 82,
+      "name": "王凯-A6838",
+      "userId": "A6838",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 83,
+      "name": "张保佳-A1617",
+      "userId": "A1617",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 84,
+      "name": "黄兆林-A16879",
+      "userId": "A16879",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 85,
+      "name": "刘晓-A8466",
+      "userId": "A8466",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 86,
+      "name": "陈国富-A3952",
+      "userId": "A3952",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 87,
+      "name": "陈宏涛-A10939",
+      "userId": "A10939",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 88,
+      "name": "赵艳-A9320",
+      "userId": "A9320",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 89,
+      "name": "孙乃威-A0487",
+      "userId": "A0487",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 90,
+      "name": "郭金瓒-A12113",
+      "userId": "A12113",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 91,
+      "name": "夏海峰-A7846",
+      "userId": "A7846",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 92,
+      "name": "王均浩-A5657",
+      "userId": "A5657",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 93,
+      "name": "张少静-A14043",
+      "userId": "A14043",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 94,
+      "name": "唐爽-A16937",
+      "userId": "A16937",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 95,
+      "name": "陈款-A16932",
+      "userId": "A16932",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 96,
+      "name": "魏玮-A16939",
+      "userId": "A16939",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 97,
+      "name": "马乐意-A7211",
+      "userId": "A7211",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 98,
+      "name": "李淑堂-A14811",
+      "userId": "A14811",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 99,
+      "name": "谭攀-A6410",
+      "userId": "A6410",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 100,
+      "name": "梅飞宇-A9147",
+      "userId": "A9147",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 101,
+      "name": "张宁-A11142",
+      "userId": "A11142",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 102,
+      "name": "吴松礼-A17003",
+      "userId": "A17003",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 103,
+      "name": "梁建伟-A4829",
+      "userId": "A4829",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 104,
+      "name": "任磊-A0260",
+      "userId": "A0260",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 107,
+      "name": "赵尔倩-A6774",
+      "userId": "A6774",
+      "role": {
+        "id": 1,
+        "roleName": "管理员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 108,
+      "name": "杨琦鑫-A13840",
+      "userId": "A13840",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 109,
+      "name": "李刚-A1819",
+      "userId": "A1819",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 110,
+      "name": "晁中原-A6825",
+      "userId": "A6825",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 111,
+      "name": "李思佳-A1615",
+      "userId": "A1615",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 112,
+      "name": "周石勇-A11021",
+      "userId": "A11021",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 113,
+      "name": "袁春喜-A0233",
+      "userId": "A0233",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 114,
+      "name": "魏文俊-A14374",
+      "userId": "A14374",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 115,
+      "name": "解朝峥-A12858",
+      "userId": "A12858",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 116,
+      "name": "曹金飞-A16976",
+      "userId": "A16976",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 117,
+      "name": "何玉芹-A13527",
+      "userId": "A13527",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 118,
+      "name": "张锋-A17007",
+      "userId": "A17007",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 119,
+      "name": "王裕鸿-A6893",
+      "userId": "A6893",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 120,
+      "name": "杜浩-A7836",
+      "userId": "A7836",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 121,
+      "name": "吴汇-A15004",
+      "userId": "A15004",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 122,
+      "name": "方友德-A16981",
+      "userId": "A16981",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 123,
+      "name": "徐珂-A7848",
+      "userId": "A7848",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 124,
+      "name": "李茂-A2116",
+      "userId": "A2116",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 125,
+      "name": "王文虎-A11138",
+      "userId": "A11138",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 126,
+      "name": "侯长磊-A4215",
+      "userId": "A4215",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 127,
+      "name": "陶文-A7415",
+      "userId": "A7415",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 128,
+      "name": "秦浩-A2144",
+      "userId": "A2144",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 129,
+      "name": "仲召军-A7889",
+      "userId": "A7889",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 130,
+      "name": "黄友志-A10524",
+      "userId": "A10524",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 131,
+      "name": "陈蕊金-A3074",
+      "userId": "A3074",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 132,
+      "name": "魏宇轩-A15174",
+      "userId": "A15174",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 133,
+      "name": "王菊花-A7801",
+      "userId": "A7801",
+      "role": {
+        "id": 2,
+        "roleName": "普通人员",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 134,
+      "name": "王世超-A0927",
+      "userId": "A0927",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 135,
+      "name": "卜荣智-A16908",
+      "userId": "A16908",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 136,
+      "name": "仇高扬-A1098",
+      "userId": "A1098",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 137,
+      "name": "武浩-A17047",
+      "userId": "A17047",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 138,
+      "name": "郑宏宇-A16433",
+      "userId": "A16433",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 139,
+      "name": "张涛-A14614",
+      "userId": "A14614",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 140,
+      "name": "戴飞-A11595",
+      "userId": "A11595",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 141,
+      "name": "李远超-A8918",
+      "userId": "A8918",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 142,
+      "name": "李明永-A2784",
+      "userId": "A2784",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 143,
+      "name": "阳洋-A16977",
+      "userId": "A16977",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 144,
+      "name": "钟家虎-A3629",
+      "userId": "A3629",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 145,
+      "name": "杨云钊-A0576",
+      "userId": "A0576",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 146,
+      "name": "李健伟-A14477",
+      "userId": "A14477",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 147,
+      "name": "林鑫-A14743",
+      "userId": "A14743",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 148,
+      "name": "丘德怀-A3627",
+      "userId": "A3627",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 149,
+      "name": "裴健凯-A15607",
+      "userId": "A15607",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 150,
+      "name": "周安喜-A16985",
+      "userId": "A16985",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 151,
+      "name": "林达聪-A15034",
+      "userId": "A15034",
+      "role": {
+        "id": 3,
+        "roleName": "北研",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 152,
+      "name": "吴先洋-A14200",
+      "userId": "A14200",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 153,
+      "name": "王翼-A15959",
+      "userId": "A15959",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 154,
+      "name": "邢博浩-A17033",
+      "userId": "A17033",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 155,
+      "name": "刘梦洁-A17032",
+      "userId": "A17032",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 156,
+      "name": "陈阿慧-A17030",
+      "userId": "A17030",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 157,
+      "name": "谭旭-A3831",
+      "userId": "A3831",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 158,
+      "name": "刘剑辉-A4043",
+      "userId": "A4043",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 159,
+      "name": "渠通-A8201",
+      "userId": "A8201",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 160,
+      "name": "张世潘-A2753",
+      "userId": "A2753",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 161,
+      "name": "李超-A17035",
+      "userId": "A17035",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 162,
+      "name": "黄治培-A15177",
+      "userId": "A15177",
+      "role": {
+        "id": 8,
+        "roleName": "交付",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 163,
+      "name": "郭飞-A16616",
+      "userId": "A16616",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 164,
+      "name": "刘国栋-A8366",
+      "userId": "A8366",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 165,
+      "name": "朱攀-A4593",
+      "userId": "A4593",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    },
+    {
+      "id": 166,
+      "name": "张存虎-A4216",
+      "userId": "A4216",
+      "role": {
+        "id": 7,
+        "roleName": "渠道业务事业部",
+        "__typename": "Role"
+      },
+      "status": {
+        "id": 1,
+        "statusType": "开启",
+        "__typename": "Status"
+      },
+      "__typename": "User"
+    }
+  ]
