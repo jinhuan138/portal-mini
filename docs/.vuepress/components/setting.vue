@@ -106,7 +106,7 @@
 <script>
 import authority from "../DB/findAuthority.json";
 import roleAll from "../DB/findRoleAll.json";
-import allUser from "../DB/getAllUser.json";
+import allUser from "../DB/getAllUser.js";
 import authorityAll from "../DB/findAuthorityAll.json";
 import { gql } from "@apollo/client";
 const tagColor = {
@@ -333,18 +333,19 @@ export default {
         };
         this.roleOptions.push(obj);
       });
-      allUser.forEach((item) => {
-        const { id, name, userId, role, status } = item;
-        const person = {
-          id,
-          name,
-          userId,
-          roleName: role.roleName,
-          roleId: role.id,
-          statusType: status.statusType,
-        };
-        this.originTableData.push(person);
-      });
+      // allUser.forEach((item) => {
+      //   const { id, name, userId, role, status } = item;
+      //   const person = {
+      //     id,
+      //     name,
+      //     userId,
+      //     roleName: role.roleName,
+      //     roleId: role.id,
+      //     statusType: status.statusType,
+      //   };
+      //   this.originTableData.push(person);
+      // });
+      this.originTableData=allUser
       this.filterTableData = this.originTableData;
       this.tableData = this.filterTableData.slice(0, 8);
       this.authorityList = authorityAll;
