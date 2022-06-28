@@ -16,7 +16,7 @@
 **为了更好地演示以下的 demo 效果，下列代码中不再重复定义样式，下列演示的样式均设置如下：**
 :::demo
 ```
-<style>
+<style scope>
   .aui-header, .aui-footer {
     background-color: #B3C0D1;
     color: #333;
@@ -122,7 +122,28 @@
 </aui-container>
 ```
 :::
-
+<style scope>
+  .aui-header, .aui-footer {
+    background-color: #B3C0D1;
+    color: #333;
+    text-align: center;
+    line-height: 60px;
+  }
+  
+  .aui-aside {
+    background-color: #D3DCE6;
+    color: #333;
+    text-align: center;
+    line-height: 200px;
+  }
+  
+  .aui-main {
+    background-color: #E9EEF3;
+    color: #333;
+    text-align: center;
+    line-height: 160px;
+  }
+</style>
 ### Container Attributes
 | 参数 | 说明 | 类型 | 可选值 | 默认值 |
 |-------|-------|-------|-------|-------|

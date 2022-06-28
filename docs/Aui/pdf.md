@@ -14,7 +14,7 @@
   export default {
     data() {
       return {
-        pdfSrc: 'test.pdf',
+        pdfSrc:this.$withBase('/LoveDeath+Robot.pdf'),
         pdfCss: 'width:50%;height:600px',
         root:'testrootpath',
         port:'53202',

@@ -26,7 +26,7 @@ export default {
   }
 }
 </script>
-<style>
+<style scope>
 .item {
   margin-right: 40px;
 }
@@ -43,7 +43,7 @@ export default {
   <aui-button>评论</aui-button>
 </aui-badge>
 <span>评论 <aui-badge :value="100" :max="10" /></span>
-<style>
+<style scope>
 .item {
   margin-right: 40px;
 }
@@ -60,7 +60,7 @@ export default {
   <aui-button>评论</aui-button>
 </aui-badge>
 <span>评论 <aui-badge value="hot" /></span>
-<style>
+<style scope>
 .item {
   margin-right: 40px;
 }
@@ -77,7 +77,7 @@ export default {
   <aui-button>评论</aui-button>
 </aui-badge>
 <span>评论 <aui-badge :is-dot="true" /></span>
-<style>
+<style scope>
 .item {
   margin-right: 40px;
 }

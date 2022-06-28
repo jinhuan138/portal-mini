@@ -9,7 +9,7 @@
           </p>
         </div>
         <div class="team-banner-item team-banner-img">
-          <img src="/portal/banner.png" />
+          <img :src='$withBase("/banner.png")' />
         </div>
       </div>
       <index-dashboard title="文档中心" description="快速了解产品相关网站及开发文档，编码规范等"></index-dashboard>
@@ -29,13 +29,16 @@ export default {
 </script>
 
 <style lang='scss' scope>
+@import '../styles/base.scss';
+
 .main {
   max-width: 75%;
   margin: 0 auto;
+  margin-top: 80px;
   padding-bottom: 40px;
 
   .banner-title {
-    color:#132b50;
+    color: #132b50;
   }
 
   .team-banner {
@@ -66,6 +69,7 @@ export default {
       position: absolute;
       z-index: 2;
     }
+
     .team-banner-img {
       position: relative;
 
@@ -92,84 +96,114 @@ export default {
     filter: opacity(60%);
   }
 }
+
 @media screen and (min-width: 1200px) {
-    .banner-title-size {
-        font-size: 2.25rem;
-    }
-    .banner-des-size {
-        font-size: 1.5rem;
-    }
-    .section-title-size {
-      font-size: 2rem;
-    }
-    .section-des-size {
-      font-size: 1.25rem;
-    }
-    .section-item-title-size {
-        font-size: 1.5rem;
-    }
-    .section-item-des-size {
-        font-size: 1rem;
-    }
+  .banner-title-size {
+    transform: scale(var(--scale));
+    font-size: 2.25rem;
+    transition: transform 0.3s;
+  }
+
+  .banner-title-size :hover {
+    transform: scale(1.05, 1.05);
+  }
+
+  .banner-des-size {
+    font-size: 1.5rem;
+  }
+
+  .section-title-size {
+    font-size: 2rem;
+  }
+
+  .section-des-size {
+    font-size: 1.25rem;
+  }
+
+  .section-item-title-size {
+    font-size: 1.5rem;
+  }
+
+  .section-item-des-size {
+    font-size: 1rem;
+  }
 }
+
 @media screen and (max-width: 1200px) {
-    .banner-title-size {
-        font-size: 2rem;
-    }
-    .banner-des-size {
-        font-size: 1.33rem;
-    }
-    .section-title-size {
-      font-size: 1.78rem;
-    }
-    .section-des-size {
-      font-size: 1.11rem;
-    }
-    .section-item-title-size {
-        font-size: 1.33rem;
-    }
-    .section-item-des-size {
-        font-size: 0.89rem;
-    }
+  .banner-title-size {
+    font-size: 2rem;
+  }
+
+  .banner-des-size {
+    font-size: 1.33rem;
+  }
+
+  .section-title-size {
+    font-size: 1.78rem;
+  }
+
+  .section-des-size {
+    font-size: 1.11rem;
+  }
+
+  .section-item-title-size {
+    font-size: 1.33rem;
+  }
+
+  .section-item-des-size {
+    font-size: 0.89rem;
+  }
 }
+
 @media screen and (max-width: 768px) {
-    .banner-title-size {
-        font-size: 1.88rem;
-    }
-    .banner-des-size {
-        font-size: 1.25rem;
-    }
-    .section-title-size {
-      font-size: 1.67rem;
-    }
-    .section-des-size {
-      font-size: 1.04rem;
-    }
-    .section-item-title-size {
-        font-size: 1.25rem;
-    }
-    .section-item-des-size {
-        font-size: 0.83rem;
-    }
+  .banner-title-size {
+    font-size: 1.88rem;
+  }
+
+  .banner-des-size {
+    font-size: 1.25rem;
+  }
+
+  .section-title-size {
+    font-size: 1.67rem;
+  }
+
+  .section-des-size {
+    font-size: 1.04rem;
+  }
+
+  .section-item-title-size {
+    font-size: 1.25rem;
+  }
+
+  .section-item-des-size {
+    font-size: 0.83rem;
+  }
 }
+
 @media screen and (max-width: 468px) {
-    .banner-title-size {
-        font-size: 1.5rem;
-    }
-    .banner-des-size {
-        font-size: 1rem;
-    }
-    .section-title-size {
-      font-size: 1.33rem;
-    }
-    .section-des-size {
-      font-size: 0.83rem;
-    }
-    .section-item-title-size {
-        font-size: 1rem;
-    }
-    .section-item-des-size {
-        font-size: 0.67rem;
-    }
+  .banner-title-size {
+    font-size: 1.5rem;
+  }
+
+  .banner-des-size {
+    font-size: 1rem;
+  }
+
+  .section-title-size {
+    font-size: 1.33rem;
+  }
+
+  .section-des-size {
+    font-size: 0.83rem;
+  }
+
+  .section-item-title-size {
+    font-size: 1rem;
+  }
+
+  .section-item-des-size {
+    font-size: 0.67rem;
+  }
 }
 </style>

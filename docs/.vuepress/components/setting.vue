@@ -11,47 +11,26 @@
             <span>用户查询</span>
           </p>
           <div style="display: flex">
-            <aui-input
-              v-model="userName"
-              label="用户名"
-              placeholder="请输入要查询的用户名"
-              @keydown.enter.native="filterUser"
-            ></aui-input>
-            <aui-select
-              label="角色"
-              :options="roleOptions"
-              v-model="role"
-              clearable
-              @keydown.enter.native="filterUser"
-              placeholder="请选择要查询的角色"
-            >
+            <aui-input v-model="userName" label="用户名" placeholder="请输入要查询的用户名" @keydown.enter.native="filterUser">
+            </aui-input>
+            <aui-select label="角色" :options="roleOptions" v-model="role" clearable @keydown.enter.native="filterUser"
+              placeholder="请选择要查询的角色">
             </aui-select>
             <aui-button style="margin-left: 60px" @click="filterUser">
-              <i class="aui-icon-search"></i>查询</aui-button
-            >
+              <i class="aui-icon-search"></i>查询
+            </aui-button>
             <aui-button @click="cancelFilter">
               <i class="aui-icon-refresh"></i>
-              重置</aui-button
-            >
+              重置
+            </aui-button>
           </div>
           <!-- 表格 -->
-          <aui-table
-            class="table"
-            :head-data="headData"
-            :data="tableData"
-            :isEdit="false"
-            width="10"
-            pagingType="complex"
-            text-align="center"
-          ></aui-table>
+          <aui-table class="table" :head-data="headData" :data="tableData" :isEdit="false" width="10"
+            pagingType="complex" text-align="center"></aui-table>
           <!-- 分页 -->
           <div class="pag">
-            <aui-pagination
-              layout="prev, pager, next"
-              :total="filterTableData.length"
-              :current-page="page"
-              @current-change="currentChange"
-            >
+            <aui-pagination layout="prev, pager, next" :total="filterTableData.length" :current-page="page"
+              @current-change="currentChange">
             </aui-pagination>
           </div>
         </div>
@@ -69,13 +48,10 @@
             <p class="card-content-title">
               <span>{{ item.roleName }}</span>
             </p>
-            <aui-tag
-              class="tag"
-              v-for="(item, index) in item.authority"
-              :background-color="item.authority.id | color"
-              :key="index"
-              >{{ item.authority.authorityName }}</aui-tag
-            >
+            <div style="display:flex;flex-wrap: wrap; justify-content : space-between;">
+              <aui-tag class="tag" v-for="(item, index) in item.authority" :background-color="item.authority.id | color"
+                :key="index">{{ item.authority.authorityName }}</aui-tag>
+            </div>
           </div>
         </div>
       </aui-card>
@@ -88,14 +64,9 @@
           <p class="card-tip">
             以下为全部现有权限，可进行新增以及删除权限修改。
           </p>
-          <div>
-            <aui-tag
-              class="tag"
-              v-for="(item, index) in authorityList"
-              :key="index"
-              :background-color="item.id | color"
-              >{{ item.authorityName }}</aui-tag
-            >
+          <div style="display:flex;flex-wrap: wrap; justify-content : space-between;">
+            <aui-tag class="tag" v-for="(item, index) in authorityList" :key="index"
+              :background-color="item.id | color">{{ item.authorityName }}</aui-tag>
           </div>
         </div>
       </aui-card>
@@ -124,7 +95,7 @@ const tagColor = {
   12: "skyblue",
 };
 export default {
-  name:"Setting",
+  name: "Setting",
   data() {
     return {
       userName: "",
@@ -345,7 +316,7 @@ export default {
       //   };
       //   this.originTableData.push(person);
       // });
-      this.originTableData=allUser
+      this.originTableData = allUser
       this.filterTableData = this.originTableData;
       this.tableData = this.filterTableData.slice(0, 8);
       this.authorityList = authorityAll;
@@ -359,6 +330,7 @@ export default {
 .card-content {
   clear: both;
   overflow: hidden;
+
   .card-content-title {
     display: flex;
     align-items: center;
@@ -369,12 +341,14 @@ export default {
     z-index: 0;
     font-weight: bold;
   }
+
   .card-content-list {
     float: left;
     overflow: hidden;
     margin-bottom: 20px;
   }
 }
+
 .card-style {
   width: 96%;
   margin: 20px auto;
@@ -382,12 +356,14 @@ export default {
   background: white;
   border-radius: 20px;
   overflow: hidden;
+
   .card-title {
     padding-left: 20px;
     padding-bottom: 20px;
     font-style: italic;
     z-index: 0;
     position: relative;
+
     &::after {
       display: block;
       content: " ";
@@ -400,16 +376,20 @@ export default {
       z-index: -1;
     }
   }
+
   .card-tip {
     padding-left: 20px;
   }
 }
+
 .box-card {
   margin: 20px;
 }
+
 .table {
   margin-top: 30px;
 }
+
 .tag {
   margin-right: 1.5rem;
   width: 8.7rem;
@@ -419,9 +399,11 @@ export default {
   margin-top: 0.5rem;
   text-align: center;
 }
+
 .pag {
   width: 25rem;
   margin-top: 0.5rem;
+
   .aui-pagination {
     // margin: 0 auto;
     margin-left: 35rem !important;

@@ -186,15 +186,15 @@ git push origin BeiQiFinanceIBP-release
 
 **Options/tag**
 
-<img src="/portal/images/devhandbook/commit-tag.png" width="400"/>
+<img :src='$withBase("/images/devhandbook/commit-tag.png")' width="400"/>
 
 **Tags/New tag**
 
-<img src="/portal/images/devhandbook/repo-tags.png" width="400"/>
+<img :src='$withBase("/images/devhandbook/repo-tags.png")' width="400"/>
 
 填写信息，示例如下：
 
-<img src="/portal/images/devhandbook/gitlab-newtag.png" width="400"/>
+<img :src='$withBase("/images/devhandbook/gitlab-newtag.png")' width="400"/>
 
 #### 2.切换分支
 

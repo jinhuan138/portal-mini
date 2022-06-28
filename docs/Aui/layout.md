@@ -35,7 +35,7 @@
   <aui-col :span="4"><div class="grid-content bg-purple-light"></div></aui-col>
 </aui-row>
 
-<style>
+<style scopescope>
   .aui-row {
     margin-bottom: 20px;
     &:last-child {

@@ -18,6 +18,7 @@
 </template>
 
 <script lang='ts'>
+import VanillaTilt from 'vanilla-tilt';
 const isHttp = (path) => {
   let regex = /^(http|https):\/\/.*/gi;
   return regex.test(path);
@@ -69,6 +70,12 @@ export default {
         },
       ],
     };
+  },
+  mounted() {
+    const elements = document.querySelectorAll('.quick-entry__item');
+    VanillaTilt.init(elements, {
+      scale: 1.1,//hover放大
+    });
   },
   methods: {
     enterItem(url) {

@@ -21,7 +21,7 @@
   </div>
 </aui-card>
 
-<style>
+<style scope>
   .text {
     font-size: 14px;
   }

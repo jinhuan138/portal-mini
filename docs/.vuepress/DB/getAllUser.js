@@ -9,7 +9,7 @@ const allUser = new Array(userNumber).fill(true).map(() => {
         name: faker.name.findName(),
         roleName: '开发人员',
         statusType: "开启",
-        userId: length === 5 ? number : number * (5 - length) * 10
+        userId: (number + '0').slice(0, 5)
     }
 })
 export default allUser
