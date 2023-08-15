@@ -1,0 +1,59 @@
+@import 'mixins/mixins';
+@import 'common/var';
+
+@include b(roll__container) {
+    overflow: hidden;
+    li {
+        list-style: none;
+    }
+}
+@include b(roll__left-arrow) {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #87c0ff;
+    cursor: pointer;
+    &:hover {
+        background-color: #409eff;
+    }
+    &::before {
+        position: absolute;
+        content: '';
+        width: 16px;
+        height: 16px;
+        top: 12px;
+        left: 15px;
+        border: 2px solid #fff;
+        border-right: 0;
+        border-bottom: 0;
+        transform: rotate(-45deg);
+    }
+}
+
+@include b(roll__right-arrow) {
+    position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #87c0ff;
+    cursor: pointer;
+    &:hover {
+        background-color: #409eff;
+    }
+    &::before {
+        position: absolute;
+        content: '';
+        width: 16px;
+        height: 16px;
+        top: 12px;
+        left: 15px;
+        border: 2px solid #fff;
+        border-left: 0;
+        border-top: 0;
+        left: 9px;
+        transform: rotate(-45deg);
+    }
+}

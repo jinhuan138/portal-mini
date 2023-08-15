@@ -1,0 +1,59 @@
+@import "mixins/mixins";
+@import "common/var";
+
+@include b(timeline) {
+  padding: 1rem;
+  @include e(item) {
+    position:relative;
+    list-style: none;
+  }
+  @include e(item-content) {
+    padding:0 0 1.5rem 1.2rem;
+  }
+  @include e(item-head) {
+    position:absolute;
+    content:'';
+    z-index:99;
+    border-radius:99px;
+    left: 1px;
+    width:10px;
+    height:10px;
+    top:4px;
+  }
+  @include e(item-head-first) {
+    position:absolute;
+    content:'';
+    z-index:99;
+    border-radius:99px;
+    left: 1px;
+  }
+  @include e(item-size) {
+    left:-4px;top:5px;
+  }
+  @include e(item-tail) {
+    position:absolute;
+    content:'';
+    height:100%;
+    width:2px;
+    left:5px;
+    top:5px;
+    background-color: #04BE02;
+  }
+  @include e(item-checked) {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px;
+    height: 20px;
+
+    .aui-icon-success-no-circle::before {
+      font-size: 14px;
+      position: absolute;
+      left: 0px;
+      top: 0px;
+      margin: 0!important;
+      color: #fff;
+    }
+  }
+}

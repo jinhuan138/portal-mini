@@ -1,0 +1,45 @@
+.auf-menu-ul, .auf-menu-li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.auf-context-menu {
+    display: flex;
+    color: #fff;
+    cursor: pointer;
+    display: none;
+}
+
+.auf-context-menu.visible {
+    display: flex;
+}
+
+.auf-menu-ul {
+    /* width: 100px; */
+    align-self: start;
+    box-shadow: 3px 2px 3px #aaa;
+}
+
+.auf-menu-ul.flex-end {
+    align-self: flex-end;
+}
+
+.auf-menu-ul+.auf-menu-ul {
+    /* margin-left: .2em; */
+    margin-left: 3px;
+}
+
+.auf-menu-li {
+    height: 30px;
+    padding: 5px 20px;
+    background: #000;
+}
+
+.auf-menu-li.active {
+    background: #7b7878;
+}
+
+.auf-menu-li:hover {
+    background: #7b7878;
+}

@@ -1,0 +1,186 @@
+@import "common/var";
+
+@font-face {
+  font-family: 'element-icons';
+  src: url('#{$--font-path}/element-icons.woff') format('woff'), /* chrome, firefox */
+       url('#{$--font-path}/element-icons.ttf') format('truetype'); /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  font-weight: normal;
+  font-style: normal
+}
+
+[class^="aui-icon-"], [class*=" aui-icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'element-icons' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  vertical-align: baseline;
+  display: inline-block;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.aui-icon-info:before { content: "\e61a"; }
+
+.aui-icon-error:before { content: "\e62c"; }
+
+.aui-icon-success:before { content: "\e62d"; }
+
+.aui-icon-warning:before { content: "\e62e"; }
+
+.aui-icon-question:before { content: "\e634"; }
+
+.aui-icon-back:before { content: "\e606"; }
+
+.aui-icon-arrow-left:before { content: "\e600"; }
+
+.aui-icon-arrow-down:before { content: "\e603"; }
+
+.aui-icon-arrow-right:before { content: "\e604"; }
+
+.aui-icon-arrow-up:before { content: "\e605"; }
+
+.aui-icon-caret-left:before { content: "\e60a"; }
+
+.aui-icon-caret-bottom:before { content: "\e60b"; }
+
+.aui-icon-caret-top:before { content: "\e60c"; }
+
+.aui-icon-caret-right:before { content: "\e60e"; }
+
+.aui-icon-d-arrow-left:before { content: "\e610"; }
+
+.aui-icon-d-arrow-right:before { content: "\e613"; }
+
+.aui-icon-minus:before { content: "\e621"; }
+
+.aui-icon-plus:before { content: "\e62b"; }
+
+.aui-icon-remove:before { content: "\e635"; }
+
+.aui-icon-circle-plus:before { content: "\e601"; }
+
+.aui-icon-remove-outline:before { content: "\e63c"; }
+
+.aui-icon-circle-plus-outline:before { content: "\e602"; }
+
+.aui-icon-close:before { content: "\e60f"; }
+
+.aui-icon-check:before { content: "\e611"; }
+
+.aui-icon-circle-close:before { content: "\e607"; }
+
+.aui-icon-circle-check:before { content: "\e639"; }
+
+.aui-icon-circle-close-outline:before { content: "\e609"; }
+
+.aui-icon-circle-check-outline:before { content: "\e63e"; }
+
+.aui-icon-zoom-out:before { content: "\e645"; }
+
+.aui-icon-zoom-in:before { content: "\e641"; }
+
+.aui-icon-d-caret:before { content: "\e615"; }
+
+.aui-icon-sort:before { content: "\e640"; }
+
+.aui-icon-sort-down:before { content: "\e630"; }
+
+.aui-icon-sort-up:before { content: "\e631"; }
+
+.aui-icon-tickets:before { content: "\e63f"; }
+
+.aui-icon-document:before { content: "\e614"; }
+
+.aui-icon-goods:before { content: "\e618"; }
+
+.aui-icon-sold-out:before { content: "\e63b"; }
+
+.aui-icon-news:before { content: "\e625"; }
+
+.aui-icon-message:before { content: "\e61b"; }
+
+.aui-icon-date:before { content: "\e608"; }
+
+.aui-icon-printer:before { content: "\e62f"; }
+
+.aui-icon-time:before { content: "\e642"; }
+
+.aui-icon-bell:before { content: "\e622"; }
+
+.aui-icon-mobile-phone:before { content: "\e624"; }
+
+.aui-icon-service:before { content: "\e63a"; }
+
+.aui-icon-view:before { content: "\e643"; }
+
+.aui-icon-menu:before { content: "\e620"; }
+
+.aui-icon-more:before { content: "\e646"; }
+
+.aui-icon-more-outline:before { content: "\e626"; }
+
+.aui-icon-star-on:before { content: "\e637"; }
+
+.aui-icon-star-off:before { content: "\e63d"; }
+
+.aui-icon-location:before { content: "\e61d"; }
+
+.aui-icon-location-outline:before { content: "\e61f"; }
+
+.aui-icon-phone:before { content: "\e627"; }
+
+.aui-icon-phone-outline:before { content: "\e628"; }
+
+.aui-icon-picture:before { content: "\e629"; }
+
+.aui-icon-picture-outline:before { content: "\e62a"; }
+
+.aui-icon-delete:before { content: "\e612"; }
+
+.aui-icon-search:before { content: "\e619"; }
+
+.aui-icon-edit:before { content: "\e61c"; }
+
+.aui-icon-edit-outline:before { content: "\e616"; }
+
+.aui-icon-rank:before { content: "\e632"; }
+
+.aui-icon-refresh:before { content: "\e633"; }
+
+.aui-icon-share:before { content: "\e636"; }
+
+.aui-icon-setting:before { content: "\e638"; }
+
+.aui-icon-upload:before { content: "\e60d"; }
+
+.aui-icon-upload2:before { content: "\e644"; }
+
+.aui-icon-download:before { content: "\e617"; }
+
+.aui-icon-loading:before { content: "\e61e"; }
+
+.aui-icon-loading {
+  animation: rotating 2s linear infinite;
+}
+
+.aui-icon--right {
+  margin-left: 5px;
+}
+.aui-icon--left {
+  margin-right: 5px;
+}
+
+@keyframes rotating {
+  0% {
+    transform: rotateZ(0deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}

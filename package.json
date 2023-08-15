@@ -13,7 +13,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@agree/aui-web": "^1.6.46-JiangNanNongShangCloudCreditAB5.7",
     "@apollo/client": "^3.4.8",
     "faker": "^5.5.3",
     "graphql": "^16.5.0",

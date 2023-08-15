@@ -1,0 +1,168 @@
+@import "mixins/mixins";
+@import "mixins/utils";
+@import "common/var";
+
+@include b(form) {
+  @include m(label-left) {
+    & .aui-form-item__label {
+      text-align: left;
+    }
+  }
+  @include m(label-top) {
+    & .aui-form-item__label {
+      float: none;
+      display: inline-block;
+      text-align: left;
+      padding: 0 0 10px 0;
+    }
+  }
+  @include m(inline) {
+    & .aui-form-item {
+      display: inline-block;
+      margin-right: 10px;
+      vertical-align: top;
+    }
+    & .aui-form-item__label {
+      float: none;
+      display: inline-block;
+    }
+    & .aui-form-item__content {
+      display: inline-block;
+      vertical-align: top;
+    }
+    &.aui-form--label-top .aui-form-item__content {
+      display: block;
+    }
+  }
+}
+@include b(form-item) {
+  margin-bottom: 22px;
+  @include utils-clearfix;
+
+  & .aui-form-item {
+    margin-bottom: 0;
+  }
+
+  & .aui-input__validateIcon {
+    display: none;
+  }
+
+  @include m(medium) {
+    .aui-form-item__label {
+      line-height: 36px;
+    }
+    .aui-form-item__content {
+      line-height: 36px;
+    }
+  }
+  @include m(small) {
+    .aui-form-item__label {
+      line-height: 32px;
+    }
+    .aui-form-item__content {
+      line-height: 32px;
+    }
+    &.aui-form-item {
+      margin-bottom: 18px;
+    }
+    .aui-form-item__error {
+      padding-top: 2px;
+    }
+  }
+  @include m(mini) {
+    .aui-form-item__label {
+      line-height: 28px;
+    }
+    .aui-form-item__content {
+      line-height: 28px;
+    }
+    &.aui-form-item {
+      margin-bottom: 18px;
+    }
+    .aui-form-item__error {
+      padding-top: 1px;
+    }
+  }
+
+  @include e(label) {
+    text-align: right;
+    vertical-align: middle;
+    float: left;
+    font-size: 14px;
+    color: $--color-text-regular;
+    line-height: 40px;
+    padding: 0 12px 0 0;
+    box-sizing: border-box;
+  }
+  @include e(content) {
+    line-height: 40px;
+    position: relative;
+    font-size: 14px;
+    @include utils-clearfix;
+  }
+  @include e(error) {
+    color: $--color-danger;
+    font-size: 12px;
+    line-height: 1;
+    padding-top: 4px;
+    position: absolute;
+    top: 100%;
+    left: 0;
+
+    @include m(inline) {
+      position: relative;
+      top: auto;
+      left: auto;
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+
+  @include when(required) {
+    .aui-form-item__label:before {
+      content: '*';
+      color: $--color-danger;
+      margin-right: 4px;
+    }
+  }
+
+  @include when(error) {
+    & .aui-input__inner,
+    & .aui-textarea__inner {
+      &, &:focus {
+        border-color: $--color-danger;
+      }
+    }
+    & .aui-input-group__append,
+    & .aui-input-group__prepend {
+      & .aui-input__inner {
+        border-color: transparent;
+      }
+    }
+    .aui-input__validateIcon {
+      color: $--color-danger;
+    }
+  }
+  @include when(success) {
+    & .aui-input__inner,
+    & .aui-textarea__inner {
+      &, &:focus {
+        border-color: $--color-success;
+      }
+    }
+    & .aui-input-group__append,
+    & .aui-input-group__prepend {
+      & .aui-input__inner {
+        border-color: transparent;
+      }
+    }
+    .aui-input__validateIcon {
+      color: $--color-success;
+    }
+  }
+  @include m(feedback) {
+    .aui-input__validateIcon {
+      display: inline-block;
+    }
+  }
+}

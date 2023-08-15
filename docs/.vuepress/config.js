@@ -1,7 +1,7 @@
 module.exports = {
     title: 'portal',
     dest: './dist',
-    base: '/portal/',
+    base: '/portal-mini/',
     theme: 'reco',
     port: '8086',
     locales: {

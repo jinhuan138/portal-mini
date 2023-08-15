@@ -1,4 +1,5 @@
-import '@agree/aui-web/lib/theme-default/index.css'
+// import '@agree/aui-web/lib/theme-default/index.css'
+import "./aui-web/lib/theme-default/index.css"
 import AuiPicviewer from './components/picviewer/index';
 import AuiPdf from './components/pdf/index';
 import routes from './router'
@@ -15,7 +16,7 @@ export default async ({
     })
     //解决编译失败 Element is undefined
     if (!isServer) {
-        await import('@agree/aui-web').then(AUI => {
+        await import('./aui-web/lib/aui-web.js').then(AUI => {
             Vue.use(AUI.default);
         });
         routes.forEach(i => {

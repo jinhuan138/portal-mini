@@ -1,0 +1,19 @@
+{
+  "main": "index.js",
+  "name": "@agree/aui-web",
+  "version": "1.6.48-HuaXingKaoPei.1",
+  "peerDependencies": {
+    "echarts": "^5.0.0",
+    "@agree/ab-manager-eventbus": ">=2.0.0",
+    "@agree/ab-manager-auf": ">=2.0.0",
+    "@agree/ab-manager-focus2": "^2.1.0-alpha.1"
+  },
+  "dependencies": {
+    "@agree/ab-manager-eventbus": "^2.0.2",
+    "@agree/ab-manager-focus2": "^2.1.0-alpha.1",
+    "vue": "^2.5.13"
+  },
+  "branchName": "HuaXing-KaoPei",
+  "commitId": "0230227ac6d34ca85aea1700dc4aa433c9942bf7",
+  "timestamp": "1660792312505"
+}
